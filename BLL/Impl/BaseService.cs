@@ -18,7 +18,7 @@ namespace BLL.Impl
             //APÓS VALIDAR TODOS OS CAMPOS, VERIFIQUE SE POSSUIMOS ERROS
             if (errors.Count > 0)
             {
-                throw new NecoException(errors);
+                throw new ExameException(errors);
             }
         }
     }

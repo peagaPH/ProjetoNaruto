@@ -4937,24 +4937,23 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DTO >= 1.0.0",
-      "Microsoft.EntityFrameworkCore >= 3.1.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\900203\\.nuget\\packages\\": {}
+    "C:\\Users\\900206\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\DAO\\DAO.csproj",
+      "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DAO\\DAO.csproj",
       "projectName": "DAO",
-      "projectPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\DAO\\DAO.csproj",
-      "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\DAO\\obj\\",
+      "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DAO\\DAO.csproj",
+      "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DAO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4967,8 +4966,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\DTO\\DTO.csproj"
+            "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DTO\\DTO.csproj"
             }
           }
         }
@@ -4982,10 +4981,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[3.1.2, )"
-          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.2, )"
