@@ -23,6 +23,15 @@ namespace ProjetoNaruto.Controllers
             return View();
         }
 
+        public IActionResult Historia()
+        {
+            return View();
+        }
+        public IActionResult Regras()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

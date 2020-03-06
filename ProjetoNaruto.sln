@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoNaruto", "ProjetoNaruto\ProjetoNaruto.csproj", "{D1228539-1D70-4E81-B78C-5708B3A64D3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjetoNaruto", "ProjetoNaruto\ProjetoNaruto.csproj", "{D1228539-1D70-4E81-B78C-5708B3A64D3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{576F6B35-AED4-45F3-B4E4-0F7D7F7B11A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{576F6B35-AED4-45F3-B4E4-0F7D7F7B11A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{22E66325-3DDD-4122-9F46-DDACE7F72197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAO", "DAO\DAO.csproj", "{22E66325-3DDD-4122-9F46-DDACE7F72197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{8F64AEFF-1CE3-4D6C-84C0-DE625D6BA8A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{8F64AEFF-1CE3-4D6C-84C0-DE625D6BA8A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{620F8969-593E-4EAC-97ED-F7D6AD2ECFEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BLL", "BLL\BLL.csproj", "{620F8969-593E-4EAC-97ED-F7D6AD2ECFEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

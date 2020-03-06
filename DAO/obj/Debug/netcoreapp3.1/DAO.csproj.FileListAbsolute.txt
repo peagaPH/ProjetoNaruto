@@ -1,0 +1,8 @@
+C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\bin\Debug\netcoreapp3.1\DAO.deps.json
+C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\bin\Debug\netcoreapp3.1\DAO.dll
+C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\bin\Debug\netcoreapp3.1\DAO.pdb
+C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.csprojAssemblyReference.cache
+C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfoInputs.cache
+C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfo.cs
+C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.dll
+C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.pdb
