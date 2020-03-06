@@ -4,5 +4,7 @@ namespace BLL
 {
     public class GenninService
     {
+
+
     }
 }
