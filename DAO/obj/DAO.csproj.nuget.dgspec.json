@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\900203\\source\\repos\\ProjetoNaruto\\DAO\\DAO.csproj": {}
+    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DAO\\DAO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\900203\\source\\repos\\ProjetoNaruto\\DAO\\DAO.csproj": {
+    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto\\DAO\\obj\\",
+        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
