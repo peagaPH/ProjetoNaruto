@@ -9,6 +9,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SQLSERVER" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj" />
+  </ItemGroup>
+
 
 
 </Project>

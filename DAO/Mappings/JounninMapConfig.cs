@@ -7,11 +7,11 @@ using System.Text;
 
 namespace DAO.Mappings
 {
-    class GenninMapConfig : IEntityTypeConfiguration<GenninDTO>
+    class JounninMapConfig : IEntityTypeConfiguration<JounninDTO>
     {
-        public void Configure(EntityTypeBuilder<GenninDTO> builder)
+        public void Configure(EntityTypeBuilder<JounninDTO> builder)
         {
-            builder.ToTable("GENNINS");
+            builder.ToTable("JOUNNINS");
             builder.Property(c => c.Nome).HasMaxLength(50).IsRequired().IsUnicode(false);
         }
     }

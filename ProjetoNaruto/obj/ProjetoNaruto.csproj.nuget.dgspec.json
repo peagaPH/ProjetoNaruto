@@ -1,20 +1,82 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\ProjetoNaruto.csproj": {}
+    "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\ProjetoNaruto\\ProjetoNaruto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\ProjetoNaruto.csproj": {
+    "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\ProjetoNaruto.csproj",
-        "projectName": "ProjetoNaruto",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\ProjetoNaruto.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\obj\\",
+        "projectUniqueName": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\Common\\Common.csproj"
+              },
+              "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DAO\\DAO.csproj"
+              },
+              "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,6 +89,176 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DAO\\DAO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DAO\\DAO.csproj",
+        "projectName": "DAO",
+        "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DAO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DTO\\DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DTO\\DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DTO\\DTO.csproj",
+        "projectName": "DTO",
+        "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\ProjetoNaruto\\ProjetoNaruto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\ProjetoNaruto\\ProjetoNaruto.csproj",
+        "projectName": "ProjetoNaruto",
+        "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\ProjetoNaruto\\ProjetoNaruto.csproj",
+        "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\ProjetoNaruto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto2\\BLL\\BLL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
