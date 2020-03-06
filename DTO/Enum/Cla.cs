@@ -11,6 +11,7 @@ namespace DTO.Enum
         Amagiri,
         Hagoromo,
         Haruno,
+        Hatake,
         Hyuga,
         Inuzuka,
         Kaguya,
