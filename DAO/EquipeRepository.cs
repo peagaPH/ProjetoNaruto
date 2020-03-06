@@ -8,22 +8,22 @@ using System.Threading.Tasks;
 
 namespace DAO
 {
-    public class GenninRepository : IGenninRepository
+    public class EquipeRepository : IEquipeRepository
     {
-        public async Task Create(GenninDTO gennin)
+        public async Task Create(EquipeDTO equipes)
         {
             using (var context = new ChuninContext())
             {
-                context.Gennins.Add(gennin);
+                context.Equipes.Add(equipes);
                 await context.SaveChangesAsync();
             }
         }
 
-        public async Task<List<GenninDTO>> GetGennins()
+        public async Task<List<EquipeDTO>> GetEquipes()
         {
             using (var context = new ChuninContext())
             {
-                return await context.Gennins.ToListAsync();
+                return await context.Equipes.ToListAsync();
             }
         }
     }

@@ -30,6 +30,10 @@ namespace ProjetoNaruto
         {
             services.AddTransient<IGenninService, GenninService>();
             services.AddTransient<IGenninRepository, GenninRepository>();
+            services.AddTransient<IJounninService, JounninService>();
+            services.AddTransient<IJounninRepository, JounninRepository>();
+            services.AddTransient<IEquipeService, EquipeService>();
+            services.AddTransient<IGenninRepository, GenninRepository>();
             services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ESTACIONAMENTODB_ef62ac46ce0642bdb42d9f59ded55587;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
 
 
