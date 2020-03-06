@@ -2,7 +2,7 @@
 
 namespace BLL
 {
-    public class GenninService
+    public class GenninService :
     {
     }
 }
