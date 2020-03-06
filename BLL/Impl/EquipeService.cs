@@ -29,26 +29,26 @@ namespace BLL.Impl
             }
         }
 
-        public Task Insert(EquipeDTO equipe)
+        public async Task Insert(EquipeDTO equipe)
         {
             List<Error> errors = new List<Error>();
 
-            if (string.IsNullOrWhiteSpace(equipe.))
+            if (string.IsNullOrWhiteSpace(equipe.Nome))
             {
-                base.AddError("Nome", "Nome deve ser informado");
+                base.AddError("Nome", "Nome da equipe deve ser informado");
             }
-            else if (cliente.Nome.Length < 5 || cliente.Nome.Length > 50)
+            else if (equipe.Nome.Length < 5 || equipe.Nome.Length > 50)
             {
-                base.AddError("Nome", "O nome deve conter entre 5 e 50 caracteres");
+                base.AddError("Nome", "O nome deve conter entre 3 e 50 caracteres");
             }
 
             //APÓS VALIDAR TODOS OS CAMPOS, VERIFIQUE SE POSSUIMOS ERROS
             base.CheckErrors();
             try
             {
-                using (SSContext context = new SSContext())
+                using (ChuninContext context = new ChuninContext())
                 {
-                    context.Clientes.Add(cliente);
+                    context.Equipes.Add(equipe);
                     await context.SaveChangesAsync();
                 }
             }
