@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "DTO/1.0.0": {
+      "Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/DTO.dll": {}
+          "bin/placeholder/Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DTO.dll": {}
+          "bin/placeholder/Common.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "DTO/1.0.0": {
+    "Common/1.0.0": {
       "type": "project",
-      "path": "../DTO/DTO.csproj",
-      "msbuildProject": "../DTO/DTO.csproj"
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "DTO >= 1.0.0"
+      "Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -52,8 +52,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\900203\\source\\repos\\ProjetoNaruto\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\900203\\source\\repos\\ProjetoNaruto\\DTO\\DTO.csproj"
+            "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\Common\\Common.csproj"
             }
           }
         }
