@@ -2,9 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BLL;
+using BLL.Impl;
+using BLL.Interfaces;
+using DAO;
+using DAO.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -23,6 +29,15 @@ namespace ProjetoNaruto
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<IGenninService, GenninService>();
+            services.AddTransient<IGenninRepository, GenninRepository>();
+            services.AddTransient<IJounninService, JounninService>();
+            services.AddTransient<IJounninRepository, JounninRepository>();
+            services.AddTransient<IEquipeService, EquipeService>();
+            services.AddTransient<IGenninRepository, GenninRepository>();
+            services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=ESTACIONAMENTODB_ef62ac46ce0642bdb42d9f59ded55587;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
+
+
             services.AddControllersWithViews();
         }
 
