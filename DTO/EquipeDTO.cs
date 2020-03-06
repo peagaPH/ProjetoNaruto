@@ -8,13 +8,12 @@ namespace DTO
     {
         public int ID { get; set; }
         public List<GenninDTO> Gennin { get; set; }
-        public List<JounninDTO> Jounnin { get; set; }
+        public JounninDTO Jounnin { get; set; }
 
 
         public EquipeDTO()
         {
             Gennin = new List<GenninDTO>();
-            Jounnin = new List<JounninDTO>();
         }
     }
 }

@@ -11,5 +11,6 @@ namespace DTO
         public string Nome { get; set; }
         public Vilas Vilas { get; set; }
         public Cla Cla { get; set; }
+        public EquipeDTO Equipe { get; set; }
     }
 }

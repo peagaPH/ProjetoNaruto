@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\ProjetoNaruto.csproj": {}
+    "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\ProjetoNaruto\\ProjetoNaruto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\ProjetoNaruto.csproj": {
+    "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\ProjetoNaruto\\ProjetoNaruto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\ProjetoNaruto.csproj",
+        "projectUniqueName": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\ProjetoNaruto\\ProjetoNaruto.csproj",
         "projectName": "ProjetoNaruto",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\ProjetoNaruto.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\ProjetoNaruto\\obj\\",
+        "projectPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\ProjetoNaruto\\ProjetoNaruto.csproj",
+        "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto2\\ProjetoNaruto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
