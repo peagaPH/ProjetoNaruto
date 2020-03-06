@@ -215,6 +215,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
         }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
       }
     }
   },
@@ -624,10 +634,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DTO >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.2"
     ]
   },
@@ -656,7 +672,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto8\\DTO\\DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
