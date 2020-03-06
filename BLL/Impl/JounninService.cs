@@ -1,20 +1,20 @@
-﻿using BLL.Impl;
-using BLL.Interfaces;
+﻿using BLL.Interfaces;
 using DTO;
 using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL
+namespace BLL.Impl
 {
-    public class GenninService : BaseService, IGenninService
+    class JounninService : BaseService, IJounninService
     {
-        public Task<List<GenninDTO>> GetData()
+        public Task<List<JounninDTO>> GetData()
         {
             throw new NotImplementedException();
         }
 
-        public Task Insert(GenninDTO gennin)
+        public Task Insert(JounninDTO cliente)
         {
             throw new NotImplementedException();
         }
