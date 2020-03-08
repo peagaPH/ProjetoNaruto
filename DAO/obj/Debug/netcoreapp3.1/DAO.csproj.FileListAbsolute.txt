@@ -6,3 +6,14 @@ C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.Asse
 C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfo.cs
 C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.dll
 C:\Users\900180\Source\Repos\ProjetoNaruto3\DAO\obj\Debug\netcoreapp3.1\DAO.pdb
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\bin\Debug\netcoreapp3.1\DAO.deps.json
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\bin\Debug\netcoreapp3.1\DAO.dll
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\bin\Debug\netcoreapp3.1\DAO.pdb
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\obj\Debug\netcoreapp3.1\DAO.csprojAssemblyReference.cache
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfoInputs.cache
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfo.cs
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.CopyComplete
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\obj\Debug\netcoreapp3.1\DAO.dll
+C:\Users\israe\Source\Repos\ProjetoNaruto2\DAO\obj\Debug\netcoreapp3.1\DAO.pdb

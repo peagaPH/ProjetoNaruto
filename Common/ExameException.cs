@@ -5,7 +5,7 @@ using System.Text;
 namespace Common
 {
     [Serializable]
-    public class ExameException
+    public class ExameException : Exception
     {
         public List<Error> Errors { get; private set; }
 
