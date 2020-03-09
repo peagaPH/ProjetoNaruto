@@ -3,7 +3,7 @@
     ViewData["Title"] = "Cadastrar";
 }
 
-<h1>Cadastrar</h1>
+<h1>Cadastro para Gennins</h1>
 
 <div class="form-horizontal">
     <form method="post">
@@ -53,6 +53,83 @@
             </div>
         </div>
 
+        <div class="form-group">
+            <label class="control-label col-md-2">Equipe do Gennin</label>
+            <div class="col-md-10">
+                <select class="form-control" name="EquipeID" id="EquipeID">
+                </select>
+            </div>
+        </div>
+
+        @if (ViewBag.ErroGenerico != null)
+        {
+            <div class="form-group">
+                <div class="col-md-10">
+                    <span class="text-warning">@ViewBag.ErroGenerico</span>
+                </div>
+            </div>
+        }
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <input name="BotaoEnviar" id="BotaoEnviar" type="submit" value="Cadastrar Gennin"/>
+            </div>
+        </div>
 
     </form>
 </div>
+
+@section scripts{
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#BotaoEnviar").click(function (e) {
+
+                var nome = $("#Nome").val();
+                var idade = $("#Idade").val();
+                var equipe = $("#Equipe").val();
+
+                var sucesso = true;
+
+                if (nome == "") {
+                    $("#erroNome").html("Nome deve ser informado.");
+                    sucesso = false;
+                }
+                else if (nome.length < 5 || nome.length > 40) {
+                    $("#erroNome").html("Nome deve conter entre 5 e 50 caracteres.");
+                    sucesso = false;
+                }
+                else {
+                    $("#erroNome").html("");
+                }
+
+                if (idade == "") {
+                    $("#erroIdade").html("Idade deve ser informado.");
+                    sucesso = false;
+                }
+                else if (idade < 7) {
+                    $("#erroIdade").html("O Gennin deve ter no minimo 7 anos.");
+                    sucesso = false;
+                }
+                else {
+                    $("#erroCPF").html("");
+                }
+
+                if (equipe == "") {
+                    $("#erroEquipe").html("A equipe deve ser informado.");
+                    sucesso = false;
+                }
+                else {
+                    $("#erroEmail").html("");
+                }
+
+                if (!sucesso) {
+                    e.preventDefault();
+                }
+
+            });
+        });
+    </script>
+
+}
