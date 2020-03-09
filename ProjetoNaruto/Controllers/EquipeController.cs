@@ -13,7 +13,7 @@ namespace ProjetoNaruto.Controllers
 {
     public class EquipeController : Controller
     {
-        public async Task<IActionResult> Cadastrar()
+        public IActionResult Cadastrar()
         {
             return View();
         }

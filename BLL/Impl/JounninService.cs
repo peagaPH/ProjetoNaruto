@@ -13,7 +13,7 @@ namespace BLL.Impl
 {
     public class JounninService : BaseService, IJounninService
     {
-        public async Task<List<JounninDTO>> GetData()
+        public async Task<List<JounninDTO>> GetJounnin()
         {
             try
             {

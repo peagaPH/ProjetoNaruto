@@ -9,6 +9,6 @@ namespace BLL.Interfaces
     public interface IGenninService
     {
         Task Insert(GenninDTO gennin);
-        Task<List<GenninDTO>> GetData();
+        Task<List<GenninDTO>> GetGennins();
     }
 }

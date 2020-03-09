@@ -13,7 +13,7 @@ namespace ProjetoNaruto.Controllers
 {
     public class GenninController : Controller
     {
-        public async Task<IActionResult> Cadastrar()
+        public IActionResult Cadastrar()
         {
             return View();
         }

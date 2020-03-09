@@ -9,6 +9,6 @@ namespace BLL.Interfaces
     public interface IEquipeService
     {
         Task Insert(EquipeDTO cliente);
-        Task<List<EquipeDTO>> GetData();
+        Task<List<EquipeDTO>> GetEquipes();
     }
 }

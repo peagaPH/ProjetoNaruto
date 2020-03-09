@@ -9,7 +9,7 @@ namespace BLL.Interfaces
     public interface IJounninService
     {
         Task Insert(JounninDTO cliente);
-        Task<List<JounninDTO>> GetData();
+        Task<List<JounninDTO>> GetJounnin();
 
     }
 }
