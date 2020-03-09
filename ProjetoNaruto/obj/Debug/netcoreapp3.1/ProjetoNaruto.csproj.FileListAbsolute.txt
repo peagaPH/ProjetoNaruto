@@ -541,7 +541,6 @@ C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Gennin\Cadastrar.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Home\Historia.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -553,3 +552,4 @@ C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csproj.CopyComplete
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.dll
 C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb
+C:\Users\900206\Source\Repos\ProjetoNaruto9\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Home\CadastroJounin.cshtml.g.cs
