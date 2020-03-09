@@ -13,7 +13,7 @@ namespace BLL.Impl
 {
     public class EquipeService : BaseService, IEquipeService
     {
-        public async Task<List<EquipeDTO>> GetData()
+        public async Task<List<EquipeDTO>> GetEquipes()
         {
             try
             {

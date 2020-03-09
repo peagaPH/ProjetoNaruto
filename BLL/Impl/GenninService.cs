@@ -13,7 +13,7 @@ namespace BLL
 {
     public class GenninService : BaseService, IGenninService
     {
-        public async Task<List<GenninDTO>> GetData()
+        public async Task<List<GenninDTO>> GetGennins()
         {
             try
             {
