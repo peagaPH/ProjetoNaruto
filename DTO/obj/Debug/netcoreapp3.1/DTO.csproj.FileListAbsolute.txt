@@ -14,3 +14,11 @@ C:\Users\israe\Source\Repos\ProjetoNaruto2\DTO\obj\Debug\netcoreapp3.1\DTO.Assem
 C:\Users\israe\Source\Repos\ProjetoNaruto2\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
 C:\Users\israe\Source\Repos\ProjetoNaruto2\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 C:\Users\israe\Source\Repos\ProjetoNaruto2\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\900206\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Users\900206\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\900206\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\900206\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\Users\900206\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Users\900206\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Users\900206\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Users\900206\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
