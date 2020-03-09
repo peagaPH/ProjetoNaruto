@@ -403,3 +403,4 @@ C:\Users\900206\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.
 C:\Users\900206\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb
 C:\Users\900206\Source\Repos\ProjetoNaruto7\ProjetoNaruto\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\900206\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\900206\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Gennin\Cadastrar.cshtml.g.cs
