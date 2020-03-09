@@ -69,3 +69,56 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.newbutton {
+    height: 38px;
+    text-align: center;
+    border-radius: 28px;
+    background: #13b5ea;
+    background: -moz-linear-gradient(top, #13b5ea, #0f91bb);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#13b5ea), to(#0f91bb));
+    background: -webkit-linear-gradient(top, #13b5ea, #0f91bb);
+    background: -o-linear-gradient(top, #13b5ea, #0f91bb);
+    background: linear-gradient(to bottom, #13b5ea, #0f91bb);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 28px;
+    margin: 5px 0;
+    padding: 0 20px;
+    border: 5px solid #c8e6f0;
+}
+
+.newbutton.red {
+    background: #B33333;
+    background: -moz-linear-gradient(top, #B33333, #800000);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#B33333), to(#800000));
+    background: -webkit-linear-gradient(top, #B33333, #800000);
+    background: -o-linear-gradient(top, #B33333, #800000);
+    background: linear-gradient(to bottom, #B33333, #800000);
+    border: 5px solid #FFCCCC;
+}
+
+.newbutton.green {
+    background: #33B3B3;
+    background: -moz-linear-gradient(top, #33B3B3, #008080);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#33B3B3), to(#008080));
+    background: -webkit-linear-gradient(top, #33B3B3, #008080);
+    background: -o-linear-gradient(top, #33B3B3, #008080);
+    background: linear-gradient(to bottom, #33B3B3, #008080);
+    border: 5px solid #CCFFFF;
+}
+
+.newbutton.black {
+    background: #7F7F7F;
+    background: -moz-linear-gradient(top, #7F7F7F, #333333);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#7F7F7F), to(#333333));
+    background: -webkit-linear-gradient(top, #7F7F7F, #333333);
+    background: -o-linear-gradient(top, #7F7F7F, #333333);
+    background: linear-gradient(to bottom, #7F7F7F, #333333);
+    border: 5px solid #CCCCCC;
+}

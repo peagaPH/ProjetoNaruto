@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Cadastrar";
+}
+
+<h1>Cadastro da Equipe</h1>
+
+<div class="form-horizontal">
+    <form method="post">
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Nome da Equipe</label>
+            <div class="col-md-10">
+                <input class="form-control" type="text" name="Nome" id="Nome" required />
+                <span class="text-danger" id="erroNome" name="erroNome"></span>
+            </div>
+        </div>
+
+        @if (ViewBag.ErroGenerico != null)
+        {
+            <div class="form-group">
+                <div class="col-md-10">
+                    <span class="text-warning">@ViewBag.ErroGenerico</span>
+                </div>
+            </div>
+        }
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <button class="newbutton green" name="BotaoEnviar" id="BotaoEnviar" type="submit">Cadastrar Equipe</button>
+            </div>
+        </div>
+    </form>
+</div>

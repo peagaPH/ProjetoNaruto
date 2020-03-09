@@ -27,7 +27,7 @@ namespace ProjetoNaruto.Controllers
         {
             return View();
         }
-        public IActionResult CadastroJounin()
+        public IActionResult Privacy()
         {
             return View();
         }

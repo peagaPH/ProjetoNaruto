@@ -3,24 +3,16 @@
     ViewData["Title"] = "Cadastrar";
 }
 
-<h1>Cadastro para Gennin's</h1>
+<h1>Cadastro para Jounnin's</h1>
 
 <div class="form-horizontal">
     <form method="post">
 
         <div class="form-group">
-            <label class="control-label col-md-2">Nome do Gennin</label>
+            <label class="control-label col-md-2">Nome do Jounnin</label>
             <div class="col-md-10">
                 <input class="form-control" type="text" name="Nome" id="Nome" required />
                 <span class="text-danger" id="erroNome" name="erroNome"></span>
-            </div>
-        </div>
-
-        <div class="form-group">
-            <label class="control-label col-md-2">Idade do Gennin</label>
-            <div class="col-md-10">
-                <input class="form-control" type="text" name="Idade" id="Idade" required />
-                <span class="text-danger" id="erroIdade" name="erroIdade"></span>
             </div>
         </div>
 
@@ -30,7 +22,7 @@
         }
 
         <div class="form-group">
-            <label class="control-label col-md-2">Clã do Gennin</label>
+            <label class="control-label col-md-2">Clã do Jounnin</label>
             <div class="col-md-10">
                 <select class="form-control" name="Cla" id="Cla">
                     @for (int i = 0; i < cla.Length; i++)
@@ -42,7 +34,7 @@
         </div>
 
         <div class="form-group">
-            <label class="control-label col-md-2">Vila do Gennin</label>
+            <label class="control-label col-md-2">Vila do Jounnin</label>
             <div class="col-md-10">
                 <select class="form-control" name="Vila" id="Vila">
                     @for (int i = 0; i < vila.Length; i++)
@@ -54,7 +46,7 @@
         </div>
 
         <div class="form-group">
-            <label class="control-label col-md-2">Equipe do Gennin</label>
+            <label class="control-label col-md-2">Equipe do Jounnin</label>
             <div class="col-md-10">
                 <select class="form-control" name="EquipeID" id="EquipeID">
                 </select>
@@ -87,7 +79,6 @@
             $("#BotaoEnviar").click(function (e) {
 
                 var nome = $("#Nome").val();
-                var idade = $("#Idade").val();
                 var equipe = $("#Equipe").val();
 
                 var sucesso = true;
@@ -102,18 +93,6 @@
                 }
                 else {
                     $("#erroNome").html("");
-                }
-
-                if (idade == "") {
-                    $("#erroIdade").html("Idade deve ser informado.");
-                    sucesso = false;
-                }
-                else if (idade < 7) {
-                    $("#erroIdade").html("O Gennin deve ter no minimo 7 anos.");
-                    sucesso = false;
-                }
-                else {
-                    $("#erroIdade").html("");
                 }
 
                 if (equipe == "") {
