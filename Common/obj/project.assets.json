@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto9\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj",
+      "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto9\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto7\\Common\\obj\\",
+      "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto9\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
