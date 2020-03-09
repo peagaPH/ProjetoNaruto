@@ -2,11 +2,13 @@
 @{
     ViewData["Title"] = "Cadastrar";
 }
-
-<h1>Cadastro para Gennin's</h1>
+<font face="njnaruto">
+      <h1>Cadastro para Gennin's</h1>
+</font>
 
 <div class="form-horizontal">
     <form method="post">
+        <font face="njnaruto"
 
         <div class="form-group">
             <label class="control-label col-md-2">Nome do Gennin</label>
@@ -19,7 +21,7 @@
         <div class="form-group">
             <label class="control-label col-md-2">Idade do Gennin</label>
             <div class="col-md-10">
-                <input class="form-control" type="text" name="Idade" id="Idade" required />
+                <input class="form-control" type="number" name="Idade" id="Idade" required />
                 <span class="text-danger" id="erroIdade" name="erroIdade"></span>
             </div>
         </div>
@@ -30,7 +32,7 @@
         }
 
         <div class="form-group">
-            <label class="control-label col-md-2">Clã do Gennin</label>
+            <label class="control-label col-md-2">Cla do Gennin</label>
             <div class="col-md-10">
                 <select class="form-control" name="Cla" id="Cla">
                     @for (int i = 0; i < cla.Length; i++)
@@ -53,14 +55,6 @@
             </div>
         </div>
 
-        <div class="form-group">
-            <label class="control-label col-md-2">Equipe do Gennin</label>
-            <div class="col-md-10">
-                <select class="form-control" name="EquipeID" id="EquipeID">
-                </select>
-            </div>
-        </div>
-
         @if (ViewBag.ErroGenerico != null)
         {
             <div class="form-group">
@@ -72,10 +66,10 @@
 
         <div class="form-group">
             <div class="col-md-10">
-                <button class="newbutton green" name="BotaoEnviar" id="BotaoEnviar" type="submit">Cadastrar Jounnin</button>
+                <button class="newbutton black" name="BotaoEnviar" id="BotaoEnviar" type="submit">Cadastrar Gennin</button>
             </div>
         </div>
-
+        </font>
     </form>
 </div>
 
@@ -88,7 +82,6 @@
 
                 var nome = $("#Nome").val();
                 var idade = $("#Idade").val();
-                var equipe = $("#Equipe").val();
 
                 var sucesso = true;
 
@@ -114,14 +107,6 @@
                 }
                 else {
                     $("#erroIdade").html("");
-                }
-
-                if (equipe == "") {
-                    $("#erroEquipe").html("A equipe deve ser informado.");
-                    sucesso = false;
-                }
-                else {
-                    $("#erroEquipe").html("");
                 }
 
                 if (!sucesso) {
