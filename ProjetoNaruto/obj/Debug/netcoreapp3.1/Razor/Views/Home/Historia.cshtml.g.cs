@@ -27,7 +27,7 @@ using ProjetoNaruto.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"fe4da94b7a480efd0f9a01f48e3aeac722d030b9", @"/Views/Home/Historia.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f779d8f639ab8b831813b55ae5d0fd6c50f77187", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e58ee332df9e5f03cea10185f61e6a910c8a8043", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Historia : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
