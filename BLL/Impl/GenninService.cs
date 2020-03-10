@@ -46,7 +46,7 @@ namespace BLL
             {
                 base.AddError("Idade", "Idade do ninja deve ser informada.");
             }
-            else if (gennin.Idade.Length < 7)
+            else if (Convert.ToInt32(gennin.Idade) < 7) 
             {
                 base.AddError("Idade", "O ninja deve conter pelo menos 7 anos.");
             }
