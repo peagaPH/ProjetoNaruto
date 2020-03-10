@@ -35,7 +35,7 @@ namespace ProjetoNaruto
             services.AddTransient<IJounninRepository, JounninRepository>();
             services.AddTransient<IEquipeService, EquipeService>();
             services.AddTransient<IGenninRepository, GenninRepository>();
-            services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"));
+            services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NARUTODB;User ID=Teste"));
 
 
             services.AddControllersWithViews();
