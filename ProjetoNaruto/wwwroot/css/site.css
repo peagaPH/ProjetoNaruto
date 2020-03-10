@@ -122,3 +122,8 @@ body {
     background: linear-gradient(to bottom, #7F7F7F, #333333);
     border: 5px solid #CCCCCC;
 }
+
+@font-face {
+    font-family: 'njnaruto';
+    src: url('../ninja_naruto/njnaruto.ttf') format('truetype');
+}
