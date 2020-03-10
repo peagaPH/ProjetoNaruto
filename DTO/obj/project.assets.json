@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\900206\\.nuget\\packages\\": {}
+    "C:\\Users\\900180\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto9\\DTO\\DTO.csproj",
+      "projectUniqueName": "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto4\\DTO\\DTO.csproj",
       "projectName": "DTO",
-      "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto9\\DTO\\DTO.csproj",
-      "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto9\\DTO\\obj\\",
+      "projectPath": "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto4\\DTO\\DTO.csproj",
+      "packagesPath": "C:\\Users\\900180\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto4\\DTO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\900180\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

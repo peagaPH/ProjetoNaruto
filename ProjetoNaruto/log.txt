@@ -5,4 +5,4 @@ No database provider has been configured for this DbContext. A provider can be c
    at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
    at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
-   at BLL.Impl.EquipeService.Insert(EquipeDTO equipe) in C:\Users\900206\Source\Repos\ProjetoNaruto9\BLL\Impl\EquipeService.cs:line 51
+   at BLL.Impl.EquipeService.Insert(EquipeDTO equipe) in C:\Users\900180\Source\Repos\ProjetoNaruto4\BLL\Impl\EquipeService.cs:line 51

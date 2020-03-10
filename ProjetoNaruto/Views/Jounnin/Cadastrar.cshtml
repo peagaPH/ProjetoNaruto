@@ -27,9 +27,10 @@
                     <select class="form-control" name="Cla" id="Cla">
                         @for (int i = 0; i < cla.Length; i++)
                         {
-                            <option value="@i">@cla[i]</option>
+                            <option style="background-image:url(Clas/Aburama.png)" value="@i">@cla[i]</option>
                         }
                     </select>
+                    <img id="ImagemCla" alt="imgDoCla" src="/Clas/Aburame.png" style="height:50px; width:50px" />
                 </div>
             </div>
 
@@ -68,6 +69,10 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
+            $("#Cla").change(function () {
+                $("#ImagemCla").attr("src", "/Clas/"+ $("#Cla option:selected").text() + ".png");
+            });
+
             $("#BotaoEnviar").click(function (e) {
 
                 var nome = $("#Nome").val();

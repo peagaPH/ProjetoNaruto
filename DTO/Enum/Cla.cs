@@ -10,13 +10,10 @@ namespace DTO.Enum
         Akimichi,
         Amagiri,
         Hagoromo,
-        Haruno,
-        Hatake,
         Hyuga,
         Inuzuka,
         Kaguya,
         Kohaku,
-        Kurama,
         Nara,
         Rinha,
         Ryu,
@@ -31,7 +28,5 @@ namespace DTO.Enum
         Yamanaka,
         Yotsuki,
         Yuki
-        
-
     }
 }

@@ -2,9 +2,9 @@
 @{
     ViewData["Title"] = "Cadastrar";
 }
-    <font face="njnaruto">
-        <h1>Cadastro da Equipe</h1>
-    </font>
+<font face="njnaruto">
+    <h1>Cadastro da Equipe</h1>
+</font>
 
 <div class="form-horizontal">
     <form method="post">
@@ -16,6 +16,31 @@
                     <span class="text-danger" id="erroNome" name="erroNome"></span>
                 </div>
             </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Primeiro Integrante</label>
+                <div class="col-md-10">
+                    <input class="form-control" type="text" name="Nome" id="Nome" required />
+                    <span class="text-danger" id="erroNome" name="erroNome"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Segundo Integrante</label>
+                <div class="col-md-10">
+                    <input class="form-control" type="text" name="Nome" id="Nome" required />
+                    <span class="text-danger" id="erroNome" name="erroNome"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Terceiro Integrante</label>
+                <div class="col-md-10">
+                    <input class="form-control" type="text" name="Nome" id="Nome" required />
+                    <span class="text-danger" id="erroNome" name="erroNome"></span>
+                </div>
+            </div>
+
 
             @if (ViewBag.ErroGenerico != null)
             {
@@ -34,3 +59,34 @@
         </font>
     </form>
 </div>
+
+@section scripts {
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#BotaoEnviar").click(function (e) {
+
+                var nome = $("#Nome").val();
+
+                var sucesso = true;
+
+                if (nome == "") {
+                    $("#erroNome").html("Nome deve ser informado.");
+                    sucesso = false;
+                }
+                else if (nome.length < 5 || nome.length > 50) {
+                    $("#erroNome").html("Nome deve conter entre 5 e 50 caracteres.");
+                    sucesso = false;
+                }
+                else {
+                    $("#erroNome").html("");
+                }
+                if (!sucesso) {
+                    e.preventDefault();
+                }
+
+            });
+        });
+    </script>
+}
