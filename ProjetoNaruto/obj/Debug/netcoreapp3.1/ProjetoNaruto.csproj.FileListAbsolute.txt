@@ -858,6 +858,7 @@ C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.
 C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csproj.CopyComplete
 C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.dll
 C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb
+C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csprojAssemblyReference.cache
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -982,7 +983,6 @@ C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\bin\Debug\netcoreapp3.
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\bin\Debug\netcoreapp3.1\DAO.pdb
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\bin\Debug\netcoreapp3.1\Common.pdb
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\bin\Debug\netcoreapp3.1\DTO.pdb
-C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csprojAssemblyReference.cache
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\staticwebassets\ProjetoNaruto.StaticWebAssets.Manifest.cache
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\staticwebassets\ProjetoNaruto.StaticWebAssets.xml
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.MvcApplicationPartsAssemblyInfo.cache
