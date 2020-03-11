@@ -8301,19 +8301,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\900203\\.nuget\\packages\\": {}
+    "C:\\Users\\900180\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto7\\ProjetoNaruto\\ProjetoNaruto.csproj",
+      "projectUniqueName": "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto5\\ProjetoNaruto\\ProjetoNaruto.csproj",
       "projectName": "ProjetoNaruto",
-      "projectPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto7\\ProjetoNaruto\\ProjetoNaruto.csproj",
-      "packagesPath": "C:\\Users\\900203\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto7\\ProjetoNaruto\\obj\\",
+      "projectPath": "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto5\\ProjetoNaruto\\ProjetoNaruto.csproj",
+      "packagesPath": "C:\\Users\\900180\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto5\\ProjetoNaruto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\900203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\900180\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8326,11 +8326,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj"
+            "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto5\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto5\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj": {
-              "projectPath": "C:\\Users\\900203\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj"
+            "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto5\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\900180\\Source\\Repos\\ProjetoNaruto5\\DAO\\DAO.csproj"
             }
           }
         }
