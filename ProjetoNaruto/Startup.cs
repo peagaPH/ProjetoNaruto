@@ -35,9 +35,8 @@ namespace ProjetoNaruto
             services.AddTransient<IJounninRepository, JounninRepository>();
             services.AddTransient<IEquipeService, EquipeService>();
             services.AddTransient<IEquipeRepository, EquipeRepository>();
-            services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NARUTODB;Integrated Security=True;Connect Timeout=30"));
-
-
+            services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NarutoDb;Integrated Security=True;Connect Timeout=30;"));
+            
             services.AddControllersWithViews();
         }
 
@@ -50,7 +49,7 @@ namespace ProjetoNaruto
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler(" / Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
