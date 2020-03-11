@@ -13,7 +13,7 @@ namespace DAO
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NARUTODB;User ID=Teste");
+            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NARUTODB;Integrated Security=True;Connect Timeout=30;");
         }
 
         public ChuninContext(DbContextOptions<ChuninContext> options) : base(options)
