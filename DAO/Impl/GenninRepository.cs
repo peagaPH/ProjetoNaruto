@@ -10,21 +10,20 @@ namespace DAO
 {
     public class GenninRepository : IGenninRepository
     {
+        private ChuninContext _context;
+        public GenninRepository(ChuninContext ctx)
+        {
+            this._context = ctx;
+        }
         public async Task Create(GenninDTO gennin)
         {
-            using (var context = new ChuninContext())
-            {
-                context.Gennins.Add(gennin);
-                await context.SaveChangesAsync();
-            }
+                _context.Gennins.Add(gennin);
+                await _context.SaveChangesAsync();
         }
 
         public async Task<List<GenninDTO>> GetGennins()
         {
-            using (var context = new ChuninContext())
-            {
-                return await context.Gennins.ToListAsync();
-            }
+                return await _context.Gennins.ToListAsync();
         }
     }
 }

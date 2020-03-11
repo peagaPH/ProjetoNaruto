@@ -10,21 +10,22 @@ namespace DAO
 {
     public class EquipeRepository : IEquipeRepository
     {
+
+        private ChuninContext _context;
+        public EquipeRepository(ChuninContext ctx)
+        {
+            this._context = ctx;
+        }
+
         public async Task Create(EquipeDTO equipes)
         {
-            using (var context = new ChuninContext())
-            {
-                context.Equipes.Add(equipes);
-                await context.SaveChangesAsync();
-            }
+            _context.Equipes.Add(equipes);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<List<EquipeDTO>> GetEquipes()
         {
-            using (var context = new ChuninContext())
-            {
-                return await context.Equipes.ToListAsync();
-            }
+            return await _context.Equipes.ToListAsync();
         }
     }
 }

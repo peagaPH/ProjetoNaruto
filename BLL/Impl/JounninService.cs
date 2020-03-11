@@ -13,14 +13,16 @@ namespace BLL.Impl
 {
     public class JounninService : BaseService, IJounninService
     {
+        private ChuninContext _context;
+        public JounninService(ChuninContext ctx)
+        {
+            this._context = ctx;
+        }
         public async Task<List<JounninDTO>> GetJounnin()
         {
             try
             {
-                using (ChuninContext context = new ChuninContext())
-                {
-                    return await context.Jounnins.ToListAsync();
-                }
+                    return await _context.Jounnins.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -43,11 +45,8 @@ namespace BLL.Impl
             }
             try
             {
-                using (ChuninContext context = new ChuninContext())
-                {
-                    context.Jounnins.Add(jounnin);
-                    await context.SaveChangesAsync();
-                }
+                    _context.Jounnins.Add(jounnin);
+                    await _context.SaveChangesAsync();
             }
             catch (Exception ex)
             {

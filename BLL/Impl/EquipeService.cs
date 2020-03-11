@@ -13,14 +13,17 @@ namespace BLL.Impl
 {
     public class EquipeService : BaseService, IEquipeService
     {
+        private ChuninContext _context;
+        public EquipeService(ChuninContext ctx)
+        {
+            this._context = ctx;
+        }
+
         public async Task<List<EquipeDTO>> GetEquipes()
         {
             try
             {
-                using (ChuninContext context = new ChuninContext())
-                {
-                    return await context.Equipes.ToListAsync();
-                }
+                    return await _context.Equipes.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -73,11 +76,8 @@ namespace BLL.Impl
             try
             {
 
-                using (ChuninContext context = new ChuninContext())
-                {
-                    context.Equipes.Add(equipe);
-                    await context.SaveChangesAsync();
-                }
+                    _context.Equipes.Add(equipe);
+                    await _context.SaveChangesAsync();
             }
             catch (Exception ex)
             {

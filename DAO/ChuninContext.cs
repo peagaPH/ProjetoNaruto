@@ -20,10 +20,8 @@ namespace DAO
         { 
         
         }
-        public ChuninContext()
-        {
 
-        }
+      
 
         public DbSet<GenninDTO> Gennins { get; set; }
         public DbSet<EquipeDTO> Equipes { get; set; }
