@@ -2,6 +2,7 @@
 using Common;
 using DAO;
 using DTO;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -22,7 +23,7 @@ namespace BLL.Impl
         {
             try
             {
-                return await _context.Gennins.ToListAsync();
+                return await _context.Kages.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -68,4 +69,5 @@ namespace BLL.Impl
             }
 
         }
+    }
 }
