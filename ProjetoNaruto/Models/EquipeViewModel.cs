@@ -8,6 +8,7 @@ namespace ProjetoNaruto.Models
 {
     public class EquipeViewModel
     {
+        public string Nome { get; set; }
         public string Gennin1 { get; set; }
         public string Gennin2 { get; set; }
         public string Gennin3 { get; set; }
