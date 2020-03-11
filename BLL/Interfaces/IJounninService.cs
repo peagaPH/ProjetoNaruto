@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Interfaces
 {
-    public interface IJounninService
+    public interface IKageService
     {
         Task Insert(JounninDTO cliente);
         Task<List<JounninDTO>> GetJounnin();

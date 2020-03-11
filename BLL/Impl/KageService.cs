@@ -13,24 +13,20 @@ namespace BLL.Impl
 {
     public class KageService : BaseService, IKageService
     {
+
         private ChuninContext _context;
         public KageService(ChuninContext ctx)
         {
             this._context = ctx;
         }
 
-        public async Task<List<KageDTO>> GetKages()
+        public  KageDTO Autenticar(string nome, string senha)
         {
-            try
-            {
-                return await _context.Kages.ToListAsync();
-            }
-            catch (Exception ex)
-            {
-                File.WriteAllText("log.txt", ex.Message + " - " + ex.StackTrace);
-                throw new Exception("Erro no banco de dados, contate o administrador");
-            }
+            return  _context.Autenticar(nome, senha);
+
         }
+
+
 
         public async Task Insert(KageDTO kage)
         {
