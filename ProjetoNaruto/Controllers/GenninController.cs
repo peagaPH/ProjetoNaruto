@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using BLL;
+using BLL.Interfaces;
 using Common;
 using DTO;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,13 @@ namespace ProjetoNaruto.Controllers
 {
     public class GenninController : Controller
     {
+        private readonly IGenninService _svc;
+
+        public GenninController(IGenninService svc)
+        {
+            _svc = svc;
+        }
+
         public IActionResult Cadastrar()
         {
             return View();
@@ -21,7 +29,6 @@ namespace ProjetoNaruto.Controllers
         [HttpPost]
         public async Task<IActionResult> Cadastrar(GenninViewModel viewModel)
         {
-            GenninService svc = new GenninService();
 
             var configuration = new MapperConfiguration(cfg =>
             {
@@ -33,7 +40,7 @@ namespace ProjetoNaruto.Controllers
 
             try
             {
-                await svc.Insert(dto);
+                await _svc.Insert(dto);
                 return RedirectToAction("Index", "Home");
             }
             catch (ExameException ex)

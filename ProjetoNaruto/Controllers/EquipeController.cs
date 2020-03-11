@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using BLL.Impl;
+using BLL.Interfaces;
 using Common;
 using DTO;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +14,13 @@ namespace ProjetoNaruto.Controllers
 {
     public class EquipeController : Controller
     {
+        private readonly IEquipeService _svc;
+
+        public EquipeController(IEquipeService svc)
+        {
+            _svc = svc;
+        }
+
         public IActionResult Cadastrar()
         {
             return View();
@@ -28,10 +36,9 @@ namespace ProjetoNaruto.Controllers
             IMapper mapper = configuration.CreateMapper();
             EquipeDTO equipe = mapper.Map<EquipeDTO>(viewModel);
 
-            EquipeService svc = new EquipeService();
             try
             {
-                await svc.Insert(equipe);
+                await _svc.Insert(equipe);
                 return RedirectToAction("Index", "Produto");
             }
             catch (ExameException ex)
