@@ -58,7 +58,7 @@ namespace BLL.Impl
                 _context.Kages.Add(kage);
                 await _context.SaveChangesAsync();
             }
-            catch (Exception ex)
+            catch (Exception ex) 
             {
                 File.WriteAllText("log.txt", ex.Message + " - " + ex.StackTrace);
                 throw new Exception("Erro no banco de dados, contate o admnistrador.");
