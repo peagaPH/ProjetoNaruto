@@ -1,5 +1,7 @@
 ﻿using BLL.Interfaces;
+using Common;
 using DAO;
+using DTO;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,7 +18,7 @@ namespace BLL.Impl
             this._context = ctx;
         }
 
-        public async Task<List<KageDTO>> GetGennins()
+        public async Task<List<KageDTO>> GetKages()
         {
             try
             {
@@ -29,24 +31,24 @@ namespace BLL.Impl
             }
         }
 
-        public async Task Insert(KageDTO gennin)
+        public async Task Insert(KageDTO kage)
         {
             List<Error> errors = new List<Error>();
 
-            if (string.IsNullOrWhiteSpace(gennin.Nome))
+            if (string.IsNullOrWhiteSpace(kage.Nome))
             {
                 base.AddError("Nome", "Nome do ninja deve ser informado.");
             }
-            else if (gennin.Nome.Length < 5 || gennin.Nome.Length > 50)
+            else if (kage.Nome.Length < 5 || kage.Nome.Length > 50)
             {
                 base.AddError("Nome", "O nome deve conter entre 3 e 50 caracteres.");
             }
 
-            if (string.IsNullOrWhiteSpace(gennin.Senha))
+            if (string.IsNullOrWhiteSpace(kage.Senha))
             {
                 base.AddError("Idade", "Idade do ninja deve ser informada.");
             }
-            else if (Convert.ToInt32(gennin.Senha) < 7)
+            else if (Convert.ToInt32(kage.Senha) < 7)
             {
                 base.AddError("Idade", "O ninja deve conter pelo menos 7 anos.");
             }
@@ -56,7 +58,7 @@ namespace BLL.Impl
 
             try
             {
-                _context.Gennins.Add(gennin);
+                _context.Kages.Add(kage);
                 await _context.SaveChangesAsync();
             }
             catch (Exception ex)
