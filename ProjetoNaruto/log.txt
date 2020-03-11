@@ -1,8 +1,7 @@
-Object reference not set to an instance of an object. -    at DAO.ChuninContext.OnConfiguring(DbContextOptionsBuilder optionsBuilder) in C:\Users\900203\Source\Repos\ProjetoNaruto7\DAO\ChuninContext.cs:line 17
-   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+OnConfiguring cannot be used to modify DbContextOptions when DbContext pooling is enabled. -    at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
    at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
    at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
    at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
    at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
    at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
-   at BLL.Impl.JounninService.Insert(JounninDTO jounnin) in C:\Users\900203\Source\Repos\ProjetoNaruto7\BLL\Impl\JounninService.cs:line 48
+   at BLL.GenninService.Insert(GenninDTO gennin) in C:\Users\900180\Source\Repos\ProjetoNaruto5\BLL\Impl\GenninService.cs:line 63

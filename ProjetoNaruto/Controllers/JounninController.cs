@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using BLL.Impl;
+using BLL.Interfaces;
 using Common;
 using DTO;
 using Microsoft.AspNetCore.Mvc;
@@ -13,8 +14,16 @@ namespace ProjetoNaruto.Controllers
 {
     public class JounninController : Controller
     {
+        private readonly IJounninService _svc;
+
+        public JounninController(IJounninService svc)
+        {
+            _svc = svc;
+        }
+
         public IActionResult Cadastrar()
         {
+
             return View();
         }
 
@@ -28,10 +37,9 @@ namespace ProjetoNaruto.Controllers
             IMapper mapper = configuration.CreateMapper();
             JounninDTO jounnin = mapper.Map<JounninDTO>(viewModel);
 
-            JounninService svc = new JounninService();
             try
             {
-                await svc.Insert(jounnin);
+                await _svc.Insert(jounnin);
                 return RedirectToAction("Index", "Produto");
             }
             catch (ExameException ex)

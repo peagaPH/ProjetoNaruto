@@ -10,21 +10,20 @@ namespace DAO
 {
     public class JounninRepository : IJounninRepository
     {
+        private ChuninContext _context;
+        public JounninRepository(ChuninContext ctx)
+        {
+            this._context = ctx;
+        }
         public async Task Create(JounninDTO jounnin)
         {
-            using (var context = new ChuninContext())
-            {
-                context.Jounnins.Add(jounnin);
-                await context.SaveChangesAsync();
-            }
+                _context.Jounnins.Add(jounnin);
+                await _context.SaveChangesAsync();
         }
 
         public async Task<List<JounninDTO>> GetJounnins()
         {
-            using (var context = new ChuninContext())
-            {
-                return await context.Jounnins.ToListAsync();
-            }
+                return await _context.Jounnins.ToListAsync();
         }
     }
 }

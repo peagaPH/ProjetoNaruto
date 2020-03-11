@@ -13,14 +13,18 @@ namespace BLL
 {
     public class GenninService : BaseService, IGenninService
     {
+
+        private ChuninContext _context;
+        public GenninService(ChuninContext ctx)
+        {
+            this._context = ctx;
+        }
+
         public async Task<List<GenninDTO>> GetGennins()
         {
             try
             {
-                using (ChuninContext context = new ChuninContext())
-                {
-                    return await context.Gennins.ToListAsync();
-                }
+                    return await _context.Gennins.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -56,11 +60,8 @@ namespace BLL
 
             try
             {
-                using (ChuninContext context = new ChuninContext())
-                {
-                    context.Gennins.Add(gennin);
-                    await context.SaveChangesAsync();
-                }
+                    _context.Gennins.Add(gennin);
+                    await _context.SaveChangesAsync();
             }
             catch (Exception ex)
             {
