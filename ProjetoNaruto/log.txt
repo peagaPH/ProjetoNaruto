@@ -1,0 +1,7 @@
+OnConfiguring cannot be used to modify DbContextOptions when DbContext pooling is enabled. -    at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.EntryWithoutDetectChanges[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.DbContext.SetEntityState[TEntity](TEntity entity, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.DbContext.Add[TEntity](TEntity entity)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at BLL.GenninService.Insert(GenninDTO gennin) in C:\Users\900180\Source\Repos\ProjetoNaruto5\BLL\Impl\GenninService.cs:line 63
