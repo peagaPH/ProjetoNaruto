@@ -67,3 +67,4 @@ C:\Users\900180\Source\Repos\ProjetoNaruto6\Common\obj\Debug\netcoreapp3.1\Commo
 C:\Users\900180\Source\Repos\ProjetoNaruto6\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
 C:\Users\900180\Source\Repos\ProjetoNaruto6\Common\obj\Debug\netcoreapp3.1\Common.dll
 C:\Users\900180\Source\Repos\ProjetoNaruto6\Common\obj\Debug\netcoreapp3.1\Common.pdb
+C:\Users\900206\Source\Repos\ProjetoNaruto10\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache

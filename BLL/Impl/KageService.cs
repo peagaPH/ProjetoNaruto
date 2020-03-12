@@ -25,8 +25,6 @@ namespace BLL.Impl
             return _context.Autenticar(nome, senha);
         }
 
-
-
         public async Task Insert(KageDTO kage)
         {
             List<Error> errors = new List<Error>();

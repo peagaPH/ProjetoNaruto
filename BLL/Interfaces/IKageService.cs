@@ -10,7 +10,5 @@ namespace BLL.Interfaces
     {
         Task Insert(KageDTO kage);
         Task<KageDTO> Autenticar(string nome, string senha);
-
-
     }
 }
