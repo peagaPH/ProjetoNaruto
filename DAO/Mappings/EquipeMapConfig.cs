@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DAO.Mappings
 {
-    public class EquipeMapConfig : IEntityTypeConfiguration<EquipeDTO>
+    class EquipeMapConfig : IEntityTypeConfiguration<EquipeDTO>
     {
         public void Configure(EntityTypeBuilder<EquipeDTO> builder)
         {
