@@ -1,6 +1,7 @@
 ﻿using BLL.Interfaces;
 using Common;
 using DAO;
+using DAO.Interfaces;
 using DTO;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,23 +14,16 @@ namespace BLL.Impl
 {
     public class KageService : BaseService, IKageService
     {
-        private ChuninContext _context;
-        public KageService(ChuninContext ctx)
+
+        private IKageRepository _repository;
+        public KageService(IKageRepository _repository)
         {
-            this._context = ctx;
+            this._repository = _repository;
         }
 
-        public async Task<List<KageDTO>> GetKages()
+        public async Task<KageDTO> Autenticar(string nome, string senha)
         {
-            try
-            {
-                return await _context.Kages.ToListAsync();
-            }
-            catch (Exception ex)
-            {
-                File.WriteAllText("log.txt", ex.Message + " - " + ex.StackTrace);
-                throw new Exception("Erro no banco de dados, contate o administrador");
-            }
+            return await _repository.Autenticar(nome, senha);
         }
 
         public async Task Insert(KageDTO kage)
@@ -59,10 +53,9 @@ namespace BLL.Impl
 
             try
             {
-                _context.Kages.Add(kage);
-                await _context.SaveChangesAsync();
+                await _repository.Create(kage);
             }
-            catch (Exception ex)
+            catch (Exception ex) 
             {
                 File.WriteAllText("log.txt", ex.Message + " - " + ex.StackTrace);
                 throw new Exception("Erro no banco de dados, contate o admnistrador.");

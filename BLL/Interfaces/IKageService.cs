@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace BLL.Interfaces
 {
-    interface IKageService
+    public interface IKageService
     {
         Task Insert(KageDTO kage);
-        Task<List<KageDTO>> GetKages();
-
+        Task<KageDTO> Autenticar(string nome, string senha);
     }
 }
