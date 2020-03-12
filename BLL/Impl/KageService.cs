@@ -43,9 +43,9 @@ namespace BLL.Impl
             {
                 base.AddError("Idade", "Idade do ninja deve ser informada.");
             }
-            else if (Convert.ToInt32(kage.Senha) < 7)
+            else if (kage.Senha.Length < 6 || kage.Senha.Length > 16)
             {
-                base.AddError("Idade", "O ninja deve conter pelo menos 7 anos.");
+                base.AddError("Idade", "A senha deve conter entre 6 e 16 anos.");
             }
             base.CheckErrors();
 

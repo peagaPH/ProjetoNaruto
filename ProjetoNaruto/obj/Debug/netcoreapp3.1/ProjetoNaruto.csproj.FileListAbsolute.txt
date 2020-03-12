@@ -858,6 +858,12 @@ C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.
 C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csproj.CopyComplete
 C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.dll
 C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb
+C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csprojAssemblyReference.cache
+C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csprojAssemblyReference.cache
+C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.dll
+C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb
+C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Kage\Login.cshtml.g.cs
+C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Kage\Cadastrar.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -999,6 +1005,8 @@ C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Jounnin\Cadastrar.cshtml.g.cs
+C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Kage\Cadastrar.cshtml.g.cs
+C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Kage\Login.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -1010,11 +1018,3 @@ C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csproj.CopyComplete
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.dll
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb
-C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csprojAssemblyReference.cache
-C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csprojAssemblyReference.cache
-C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.dll
-C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb
-C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Kage\Login.cshtml.g.cs
-C:\Users\900180\Source\Repos\ProjetoNaruto5\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Kage\Cadastrar.cshtml.g.cs
-C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Kage\Cadastrar.cshtml.g.cs
-C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Kage\Login.cshtml.g.cs
