@@ -5,6 +5,45 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\vendor\animate\animate.css" />
+    <None Include="wwwroot\vendor\animsition\css\animsition.css" />
+    <None Include="wwwroot\vendor\animsition\css\animsition.min.css" />
+    <None Include="wwwroot\vendor\animsition\js\animsition.js" />
+    <None Include="wwwroot\vendor\animsition\js\animsition.min.js" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap-grid.css" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.css" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\popper.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\popper.min.js" />
+    <None Include="wwwroot\vendor\bootstrap\js\tooltip.js" />
+    <None Include="wwwroot\vendor\countdowntime\countdowntime.js" />
+    <None Include="wwwroot\vendor\css-hamburgers\hamburgers.css" />
+    <None Include="wwwroot\vendor\css-hamburgers\hamburgers.min.css" />
+    <None Include="wwwroot\vendor\daterangepicker\daterangepicker.css" />
+    <None Include="wwwroot\vendor\daterangepicker\daterangepicker.js" />
+    <None Include="wwwroot\vendor\daterangepicker\moment.js" />
+    <None Include="wwwroot\vendor\daterangepicker\moment.min.js" />
+    <None Include="wwwroot\vendor\jquery\jquery-3.2.1.min.js" />
+    <None Include="wwwroot\vendor\perfect-scrollbar\perfect-scrollbar.css" />
+    <None Include="wwwroot\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <None Include="wwwroot\vendor\select2\select2.css" />
+    <None Include="wwwroot\vendor\select2\select2.js" />
+    <None Include="wwwroot\vendor\select2\select2.min.css" />
+    <None Include="wwwroot\vendor\select2\select2.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
