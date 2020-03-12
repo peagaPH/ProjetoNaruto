@@ -17,6 +17,22 @@
                 </div>
             </div>
 
+            <div class="form-group">
+                <label class="control-label col-md-2">Senha do Kage</label>
+                <div class="col-md-10">
+                    <input class="form-control" type="password" name="Senha" id="Senha" required />
+                    <span class="text-danger" id="erroSenha" name="erroSenha"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Confirmar Senha</label>
+                <div class="col-md-10">
+                    <input class="form-control" type="password" name="ConfirmarSenha" id="ConfirmarSenha" required />
+                    <span class="text-danger" id="erroConfirmarSenha" name="erroConfirmarSenha"></span>
+                </div>
+            </div>
+
             @{
                 string[] cla = Enum.GetNames(typeof(DTO.Enum.Cla));
                 string[] vila = Enum.GetNames(typeof(DTO.Enum.Vilas));
@@ -58,7 +74,7 @@
 
             <div class="form-group">
                 <div class="col-md-10">
-                    <button class="newbutton red" name="BotaoEnviar" id="BotaoEnviar" type="submit">Cadastrar Jounnin</button>
+                    <button class="newbutton red" name="BotaoEnviar" id="BotaoEnviar" type="submit">Cadastrar Kage</button>
                 </div>
             </div>
         </font>
@@ -77,6 +93,8 @@
             $("#BotaoEnviar").click(function (e) {
 
                 var nome = $("#Nome").val();
+                var senha = $("#Senha").val();
+                var confirmarsenha = $("#ConfirmarSenha").val();
 
                 var sucesso = true;
 
@@ -90,6 +108,16 @@
                 }
                 else {
                     $("#erroNome").html("");
+                }
+
+                if (senha.length < 6 || senha.length > 16) {
+                    $("#erroSenha").html("Senha deve conter entre 6 e 16 caracteres");
+                    sucesso = false;
+                }
+
+                if (senha != confirmarsenha) {
+                    $("#erroConfirmarSenha").html("Senhas nao batem.");
+                    sucesso = false;
                 }
 
                 if (!sucesso) {

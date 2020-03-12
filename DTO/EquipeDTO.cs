@@ -11,6 +11,5 @@ namespace DTO
         public string Gennin2 { get; set; }
         public string Gennin3 { get; set; }
         public string Jounnin { get; set; }
-
     }
 }
