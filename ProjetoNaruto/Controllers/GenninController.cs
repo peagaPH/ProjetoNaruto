@@ -7,11 +7,13 @@ using BLL;
 using BLL.Interfaces;
 using Common;
 using DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoNaruto.Models;
 
 namespace ProjetoNaruto.Controllers
 {
+    [Authorize]
     public class GenninController : Controller
     {
         private readonly IGenninService _svc;

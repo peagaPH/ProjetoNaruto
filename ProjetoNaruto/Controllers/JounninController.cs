@@ -7,11 +7,13 @@ using BLL.Impl;
 using BLL.Interfaces;
 using Common;
 using DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoNaruto.Models;
 
 namespace ProjetoNaruto.Controllers
 {
+    [Authorize]
     public class JounninController : Controller
     {
         private readonly IJounninService _svc;

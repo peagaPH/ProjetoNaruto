@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoMapper;
 using BLL.Impl;
 using BLL.Interfaces;
 using Common;
 using DTO;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoNaruto.Models;
 
@@ -32,18 +35,26 @@ namespace ProjetoNaruto.Controllers
             [HttpPost]
             public async Task<IActionResult> Login(string nome, string senha)
             {
-                try
+                if (await _svc.Autenticar(nome, senha) != null)
                 {
-                    KageDTO kage = await _svc.Autenticar(nome, senha);
-                    Response.Cookies.Append("USERIDENTITY", kage.ID.ToString());
+                    var claims = new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Name, nome)
+                    };
+                    var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var principal = new ClaimsPrincipal(identity);
+                    var props = new AuthenticationProperties();
+                    HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, props).Wait();
+                    ViewBag.UsuarioLogado = true;
                     return RedirectToAction("Index", "Home");
                 }
-                catch (Exception ex)
+                else
                 {
-                    ViewBag.Erros = ex.Message;
+                    return View();
                 }
-                return View();
-            }
+
+
+        }
 
         [HttpPost]
         public async Task<IActionResult> Cadastrar(KageViewModel viewModel)
