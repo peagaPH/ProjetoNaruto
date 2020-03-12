@@ -10,6 +10,5 @@ namespace BLL.Interfaces
     {
         Task Insert(JounninDTO cliente);
         Task<List<JounninDTO>> GetJounnin();
-
     }
 }

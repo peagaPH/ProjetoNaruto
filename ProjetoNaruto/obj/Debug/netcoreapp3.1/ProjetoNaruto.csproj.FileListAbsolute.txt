@@ -1011,3 +1011,6 @@ C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.dll
 C:\Users\900206\Source\Repos\ProjetoNaruto10\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb
 C:\Users\900203\Source\Repos\ProjetoNaruto7\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csprojAssemblyReference.cache
+C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.csprojAssemblyReference.cache
+C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.dll
+C:\Users\900180\Source\Repos\ProjetoNaruto6\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.pdb

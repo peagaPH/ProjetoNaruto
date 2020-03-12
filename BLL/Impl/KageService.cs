@@ -20,13 +20,10 @@ namespace BLL.Impl
             this._context = ctx;
         }
 
-        public  KageDTO Autenticar(string nome, string senha)
+        public async Task<KageDTO> Autenticar(string nome, string senha)
         {
-            return  _context.Autenticar(nome, senha);
-
+            return await _context.Autenticar(nome, senha);
         }
-
-
 
         public async Task Insert(KageDTO kage)
         {

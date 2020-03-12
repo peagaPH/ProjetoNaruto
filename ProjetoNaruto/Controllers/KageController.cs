@@ -41,7 +41,6 @@ namespace ProjetoNaruto.Controllers
                 {
                     KageDTO kage = await _svc.Autenticar(nome, senha);
                     Response.Cookies.Append("USERIDENTITY", kage.ID.ToString());
-                    var TESTE = Request.Cookies["USERIDENTITY"].ToString();
                     return RedirectToAction("Index", "Home");
                 }
                 catch (Exception ex)

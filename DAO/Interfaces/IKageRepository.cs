@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL.Interfaces
+namespace DAO.Interfaces
 {
-    public interface IKageService
+    public interface IKageRepository
     {
-        Task Insert(KageDTO kage);
+        Task Create(KageDTO kages);
         Task<KageDTO> Autenticar(string nome, string senha);
     }
 }
