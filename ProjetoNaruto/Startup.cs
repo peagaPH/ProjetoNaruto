@@ -6,6 +6,7 @@ using BLL;
 using BLL.Impl;
 using BLL.Interfaces;
 using DAO;
+using DAO.Impl;
 using DAO.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -35,6 +36,8 @@ namespace ProjetoNaruto
             services.AddTransient<IJounninRepository, JounninRepository>();
             services.AddTransient<IEquipeService, EquipeService>();
             services.AddTransient<IEquipeRepository, EquipeRepository>();
+            services.AddTransient<IKageService, KageService>();
+            services.AddTransient<IKageRepository, KageRepository>();
             services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NarutoDb;Integrated Security=True;Connect Timeout=30;"));
             
             services.AddControllersWithViews();

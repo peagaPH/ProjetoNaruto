@@ -14,28 +14,23 @@ namespace ProjetoNaruto.Controllers
 {
     public class KageController : Controller
     {
-
         private readonly IKageService _svc;
 
         public KageController(IKageService svc)
         {
             _svc = svc;
         }
-
-
-        [HttpGet]
-            public ActionResult Cadastrar()
+            public IActionResult Cadastrar()
             {
                 return View();
             }
-            public ActionResult Login()
+            public IActionResult Login()
             {
-
                 return View();
             }
 
             [HttpPost]
-            public async Task<ActionResult> Login(string nome, string senha)
+            public async Task<IActionResult> Login(string nome, string senha)
             {
                 try
                 {
@@ -50,38 +45,33 @@ namespace ProjetoNaruto.Controllers
                 return View();
             }
 
-            [HttpPost]
-            public async Task<ActionResult> Cadastrar(KageViewModel viewModel)
+        [HttpPost]
+        public async Task<IActionResult> Cadastrar(KageViewModel viewModel)
+        {
+            var configuration = new MapperConfiguration(cfg =>
             {
-
-                var configuration = new MapperConfiguration(cfg =>
-                {
-                    cfg.CreateMap<KageViewModel, KageDTO>();
-                });
-
-                IMapper mapper = configuration.CreateMapper();
-            // new SERService().GetSERByID(4);
-            //Transforma o ClienteInsertViewModel em um ClienteDTO
-            KageDTO dto = mapper.Map<KageDTO>(viewModel);
-                try
-                {
-                    await _svc.Insert(dto);
-                    //Se funcionou, redireciona pra página inicial
-                    return RedirectToAction("Home", "Index");
-                }
-                catch (ExameException ex)
-                {
-                    //Se caiu aqui, o ClienteService lançou a exceção por validação de campos
-                    ViewBag.ValidationErrors = ex.Errors;
-                }
-                catch (Exception ex)
-                {
-                    //Se caiu aqui, o ClienteService lançou uma exceção genérica, provavelmente por falha de acesso ao banco
-                    ViewBag.ErrorMessage = ex.Message;
-                }
-                //Se chegou aqui, temos erro
+                cfg.CreateMap<KageViewModel, KageDTO>();
+            });
+            IMapper mapper = configuration.CreateMapper();
+            KageDTO kage = mapper.Map<KageDTO>(viewModel);
+            try
+            {
+                await _svc.Insert(kage);
+                return RedirectToAction("Home", "Index");
+            }
+            catch (ExameException ex)
+            {
+                ViewBag.Errors = ex.Errors;
                 return View();
             }
+            catch (Exception ex)
+            {
+                ViewBag.ErroGenerico = ex.Message;
+                return View();
+            }
+
+
+        }
 
         
     

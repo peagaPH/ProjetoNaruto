@@ -20,10 +20,8 @@ namespace ProjetoNaruto.Controllers
         {
             _svc = svc;
         }
-
         public IActionResult Cadastrar()
         {
-
             return View();
         }
 
@@ -36,11 +34,10 @@ namespace ProjetoNaruto.Controllers
             });
             IMapper mapper = configuration.CreateMapper();
             JounninDTO jounnin = mapper.Map<JounninDTO>(viewModel);
-
             try
             {
                 await _svc.Insert(jounnin);
-                return RedirectToAction("Index", "Produto");
+                return RedirectToAction("Home", "Index");
             }
             catch (ExameException ex)
             {

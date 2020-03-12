@@ -13,22 +13,15 @@ namespace DAO
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-        }
 
+        }
         public ChuninContext(DbContextOptions<ChuninContext> options) : base(options)
         { 
         
         }
-
-      
-
         public DbSet<GenninDTO> Gennins { get; set; }
         public DbSet<EquipeDTO> Equipes { get; set; }
         public DbSet<JounninDTO> Jounnins { get; set; }
         public DbSet<KageDTO> Kages { get; set; }
-
-
-
-
     }
 }
