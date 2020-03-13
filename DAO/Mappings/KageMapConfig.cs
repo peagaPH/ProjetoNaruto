@@ -11,7 +11,7 @@ namespace DAO.Mappings
     {
         public void Configure(EntityTypeBuilder<KageDTO> builder)
         {
-            builder.ToTable("KAGESS");
+            builder.ToTable("KAGES");
             builder.Property(c => c.Nome).HasMaxLength(50).IsRequired().IsUnicode(false);
         }
     }
