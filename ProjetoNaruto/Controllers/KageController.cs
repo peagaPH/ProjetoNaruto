@@ -32,28 +32,26 @@ namespace ProjetoNaruto.Controllers
                 return View();
             }
 
-            [HttpPost]
-            public async Task<IActionResult> Login(string nome, string senha)
+        [HttpPost]
+        public async Task<IActionResult> Login(string nome, string senha)
+        {
+            if (await _svc.Autenticar(nome, senha) != null)
             {
-                if (await _svc.Autenticar(nome, senha) != null)
-                {
-                    var claims = new List<Claim>
+                var claims = new List<Claim>
                     {
                         new Claim(ClaimTypes.Name, nome)
                     };
-                    var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                    var principal = new ClaimsPrincipal(identity);
-                    var props = new AuthenticationProperties();
-                    HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, props).Wait();
-                    ViewBag.UsuarioLogado = true;
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    return View();
-                }
-
-
+                var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var principal = new ClaimsPrincipal(identity);
+                var props = new AuthenticationProperties();
+                HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, props).Wait();
+                ViewBag.UsuarioLogado = true;
+                return RedirectToAction("Index", "Home");
+            }
+            else
+            {
+                return View();
+            }
         }
 
         [HttpPost]
@@ -80,11 +78,6 @@ namespace ProjetoNaruto.Controllers
                 ViewBag.ErroGenerico = ex.Message;
                 return View();
             }
-
-
         }
-
-        
-    
     }
 }
