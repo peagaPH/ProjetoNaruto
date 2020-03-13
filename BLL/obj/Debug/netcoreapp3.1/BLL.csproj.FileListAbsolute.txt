@@ -89,6 +89,9 @@ C:\Users\900180\Source\Repos\ProjetoNaruto6\BLL\obj\Debug\netcoreapp3.1\BLL.Asse
 C:\Users\900180\Source\Repos\ProjetoNaruto6\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
 C:\Users\900180\Source\Repos\ProjetoNaruto6\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 C:\Users\900180\Source\Repos\ProjetoNaruto6\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\bin\Debug\netcoreapp3.1\BLL.dll
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
@@ -98,9 +101,6 @@ C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\bin\Debug\netcoreapp3.1\DTO.dll
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\bin\Debug\netcoreapp3.1\Common.pdb
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\bin\Debug\netcoreapp3.1\DAO.pdb
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\bin\Debug\netcoreapp3.1\DTO.pdb
-C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
-C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
-C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 C:\Users\900206\Source\Repos\ProjetoNaruto10\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
