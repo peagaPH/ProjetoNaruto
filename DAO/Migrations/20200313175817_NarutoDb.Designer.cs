@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DAO.Migrations
 {
     [DbContext(typeof(ChuninContext))]
-    [Migration("20200311195921_atualizaoo.cs")]
-    partial class atualizaoocs
+    [Migration("20200313175817_NarutoDb")]
+    partial class NarutoDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,20 +28,32 @@ namespace DAO.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("Gennin1")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
 
                     b.Property<string>("Gennin2")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
 
                     b.Property<string>("Gennin3")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
 
                     b.Property<string>("Jounnin")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
 
                     b.HasKey("ID");
 
-                    b.ToTable("Equipes");
+                    b.ToTable("EQUIPES");
                 });
 
             modelBuilder.Entity("DTO.GenninDTO", b =>
@@ -55,17 +67,21 @@ namespace DAO.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Idade")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(max)")
+                        .IsUnicode(false);
 
                     b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
 
                     b.Property<int>("Vilas")
                         .HasColumnType("int");
 
                     b.HasKey("ID");
 
-                    b.ToTable("Gennins");
+                    b.ToTable("GENNINS");
                 });
 
             modelBuilder.Entity("DTO.JounninDTO", b =>
@@ -79,14 +95,17 @@ namespace DAO.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
 
                     b.Property<int>("Vilas")
                         .HasColumnType("int");
 
                     b.HasKey("ID");
 
-                    b.ToTable("Jounnins");
+                    b.ToTable("JOUNNINS");
                 });
 
             modelBuilder.Entity("DTO.KageDTO", b =>
@@ -100,17 +119,21 @@ namespace DAO.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("varchar(50)")
+                        .HasMaxLength(50)
+                        .IsUnicode(false);
 
                     b.Property<string>("Senha")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("varchar(max)")
+                        .IsUnicode(false);
 
                     b.Property<int>("Vilas")
                         .HasColumnType("int");
 
                     b.HasKey("ID");
 
-                    b.ToTable("Kages");
+                    b.ToTable("KAGES");
                 });
 #pragma warning restore 612, 618
         }

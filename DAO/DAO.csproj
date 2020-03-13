@@ -5,12 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200311175802_atualizacao.cs.cs" />
+    <Compile Remove="Migrations\20200311175802_atualizacao.cs.Designer.cs" />
+    <Compile Remove="Migrations\20200311195921_atualizaoo.cs.cs" />
+    <Compile Remove="Migrations\20200311195921_atualizaoo.cs.Designer.cs" />
     <Compile Remove="Migrations\20200313171105_Teste.cs" />
     <Compile Remove="Migrations\20200313171105_Teste.Designer.cs" />
     <Compile Remove="Migrations\20200313171145_NaturoDb.cs" />
     <Compile Remove="Migrations\20200313171145_NaturoDb.Designer.cs" />
     <Compile Remove="Migrations\20200313171208_NaturoDb.cs" />
     <Compile Remove="Migrations\20200313171208_NaturoDb.Designer.cs" />
+    <Compile Remove="Migrations\20200313171609_NarutoDB.cs" />
+    <Compile Remove="Migrations\20200313171609_NarutoDB.Designer.cs" />
+    <Compile Remove="Migrations\20200313174904_NarutoDb.cs" />
+    <Compile Remove="Migrations\20200313174904_NarutoDb.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

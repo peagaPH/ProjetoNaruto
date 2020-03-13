@@ -43,7 +43,7 @@ namespace ProjetoNaruto.Controllers
             try
             {
                 await _svc.Insert(dto);
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Cadastrar", "Gennin");
             }
             catch (ExameException ex)
             {

@@ -24,7 +24,7 @@
                     <select class="form-control" name="JounninID" id="JounninID">
                         @foreach (var item in ViewBag.Jounnins)
                         {
-                            <option value="@item.ID">@item.Nome</option>
+                            <option value="@item.Nome">@item.Nome</option>
                         }
                     </select>
                 </div>
@@ -93,10 +93,6 @@
             $("#BotaoEnviar").click(function (e) {
 
                 var nome = $("#Nome").val();
-                var gennin1 = $("#Gennin1").val();
-                var gennin2 = $("#Gennin2").val();
-                var gennin3 = $("#Gennin3").val();
-                var jounnin = $("#Jounnin").val();
 
                 var sucesso = true;
 
@@ -110,54 +106,6 @@
                 }
                 else {
                     $("#erroNome").html("");
-                }
-
-                if (jounnin == "") {
-                    $("#erroJounnin").html("Nome deve ser informado.");
-                    sucesso = false;
-                }
-                else if (jounnin.length < 5 || jounnin.length > 50) {
-                    $("#erroJounnin").html("Nome deve conter entre 5 e 50 caracteres.");
-                    sucesso = false;
-                }
-                else {
-                    $("#erroJounnin").html("");
-                }
-
-                if (gennin1 == "") {
-                    $("#erroGennin1").html("Nome deve ser informado.");
-                    sucesso = false;
-                }
-                else if (gennin1.length < 5 || gennin1.length > 50) {
-                    $("#erroGennin1").html("Nome deve conter entre 5 e 50 caracteres.");
-                    sucesso = false;
-                }
-                else {
-                    $("#erroGennin1").html("");
-                }
-
-                if (gennin2 == "") {
-                    $("#erroGennin2").html("Nome deve ser informado.");
-                    sucesso = false;
-                }
-                else if (gennin2.length < 5 || gennin2.length > 50) {
-                    $("#erroGennin2").html("Nome deve conter entre 5 e 50 caracteres.");
-                    sucesso = false;
-                }
-                else {
-                    $("#erroGennin2").html("");
-                }
-
-                if (gennin3 == "") {
-                    $("#erroGennin3").html("Nome deve ser informado.");
-                    sucesso = false;
-                }
-                else if (gennin3.length < 5 || gennin3.length > 50) {
-                    $("#erroGennin3").html("Nome deve conter entre 5 e 50 caracteres.");
-                    sucesso = false;
-                }
-                else {
-                    $("#erroGennin3").html("");
                 }
 
                 if (!sucesso) {

@@ -36,46 +36,19 @@ namespace BLL.Impl
         {
             List<Error> errors = new List<Error>();
 
-            if (string.IsNullOrWhiteSpace(equipe.Gennin1))
+            if (string.IsNullOrWhiteSpace(equipe.Nome))
             {
                 base.AddError("Nome", "Nome da equipe deve ser informado");
             }
-            else if (equipe.Gennin1.Length < 5 || equipe.Gennin1.Length > 50)
+            else if (equipe.Nome.Length < 5 || equipe.Nome.Length > 50)
             {
                 base.AddError("Nome", "O nome deve conter entre 3 e 50 caracteres");
             }
 
-            if (string.IsNullOrWhiteSpace(equipe.Gennin2))
-            {
-                base.AddError("Nome", "Nome da equipe deve ser informado");
-            }
-            else if (equipe.Gennin2.Length < 5 || equipe.Gennin2.Length > 50)
-            {
-                base.AddError("Nome", "O nome deve conter entre 3 e 50 caracteres");
-            }
-
-            if (string.IsNullOrWhiteSpace(equipe.Gennin3))
-            {
-                base.AddError("Nome", "Nome da equipe deve ser informado");
-            }
-            else if (equipe.Gennin3.Length < 5 || equipe.Gennin3.Length > 50)
-            {
-                base.AddError("Nome", "O nome deve conter entre 3 e 50 caracteres");
-            }
-
-            if (string.IsNullOrWhiteSpace(equipe.Jounnin))
-            {
-                base.AddError("Nome", "Nome da equipe deve ser informado");
-            }
-            else if (equipe.Jounnin.Length < 5 || equipe.Jounnin.Length > 50)
-            {
-                base.AddError("Nome", "O nome deve conter entre 3 e 50 caracteres");
-            }
-            //APÓS VALIDAR TODOS OS CAMPOS, VERIFIQUE SE POSSUIMOS ERROS
             base.CheckErrors();
+
             try
             {
-
                     _context.Equipes.Add(equipe);
                     await _context.SaveChangesAsync();
             }

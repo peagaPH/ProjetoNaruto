@@ -25,25 +25,19 @@ namespace DAO.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Gennin1")
-                        .IsRequired()
-                        .HasColumnType("varchar(50)")
-                        .HasMaxLength(50)
-                        .IsUnicode(false);
+                    b.Property<int>("GenninID1")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Gennin2")
-                        .IsRequired()
-                        .HasColumnType("varchar(50)")
-                        .HasMaxLength(50)
-                        .IsUnicode(false);
+                    b.Property<int>("GenninID2")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Gennin3")
-                        .IsRequired()
-                        .HasColumnType("varchar(50)")
-                        .HasMaxLength(50)
-                        .IsUnicode(false);
+                    b.Property<int>("GenninID3")
+                        .HasColumnType("int");
 
-                    b.Property<string>("Jounnin")
+                    b.Property<int>("JounninID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("varchar(50)")
                         .HasMaxLength(50)
