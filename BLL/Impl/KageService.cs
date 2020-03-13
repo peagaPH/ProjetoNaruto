@@ -36,20 +36,18 @@ namespace BLL.Impl
             }
             else if (kage.Nome.Length < 5 || kage.Nome.Length > 50)
             {
-                base.AddError("Nome", "O nome deve conter entre 3 e 50 caracteres.");
+                base.AddError("Nome", "O nome deve conter entre 5 e 50 caracteres.");
             }
 
             if (string.IsNullOrWhiteSpace(kage.Senha))
             {
-                base.AddError("Idade", "Idade do ninja deve ser informada.");
+                base.AddError("Senha", "Senha do kage deve ser informada.");
             }
             else if (kage.Senha.Length < 6 || kage.Senha.Length > 16)
             {
-                base.AddError("Idade", "A senha deve conter entre 6 e 16 anos.");
+                base.AddError("Senha", "A senha deve conter entre 6 e 16 anos.");
             }
             base.CheckErrors();
-
-            //APÓS VALIDAR TODOS OS CAMPOS, VERIFIQUE SE POSSUIMOS ERROS
 
             try
             {
