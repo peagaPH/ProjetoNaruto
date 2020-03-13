@@ -2,6 +2,7 @@
 using Common;
 using DAO;
 using DTO;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -30,7 +31,7 @@ namespace BLL.Impl
             }
         }
 
-        public Task Insert(BatalhaDTO batalha)
+        public async Task Insert(BatalhaDTO batalha)
         {
             List<Error> errors = new List<Error>();
 
@@ -38,7 +39,7 @@ namespace BLL.Impl
 
             try
             {
-                _context.Batalha.Add(batalha);
+                _context.Batalhas.Add(batalha);
                 await _context.SaveChangesAsync();
             }
             catch (Exception ex)
