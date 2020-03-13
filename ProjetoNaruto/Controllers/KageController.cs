@@ -66,7 +66,7 @@ namespace ProjetoNaruto.Controllers
             try
             {
                 await _svc.Insert(kage);
-                return RedirectToAction("Home", "Index");
+                return RedirectToAction("Index", "Home");
             }
             catch (ExameException ex)
             {

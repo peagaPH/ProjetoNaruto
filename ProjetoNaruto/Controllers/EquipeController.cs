@@ -41,7 +41,7 @@ namespace ProjetoNaruto.Controllers
             try
             {
                 await _svc.Insert(equipe);
-                return RedirectToAction("Index", "Produto");
+                return RedirectToAction("Index", "Home");
             }
             catch (ExameException ex)
             {
