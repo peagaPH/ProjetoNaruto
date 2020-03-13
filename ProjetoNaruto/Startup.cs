@@ -39,6 +39,9 @@ namespace ProjetoNaruto
             services.AddTransient<IEquipeRepository, EquipeRepository>();
             services.AddTransient<IKageService, KageService>();
             services.AddTransient<IKageRepository, KageRepository>();
+            services.AddTransient<IBatalhaService, BatalhaService>();
+            services.AddTransient<IBatalhaRepository, BatalhaRepository>();
+
             services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NarutoDb;Integrated Security=True;Connect Timeout=30;"));
             
             services.AddControllersWithViews();
