@@ -5,6 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200313171105_Teste.cs" />
+    <Compile Remove="Migrations\20200313171105_Teste.Designer.cs" />
+    <Compile Remove="Migrations\20200313171145_NaturoDb.cs" />
+    <Compile Remove="Migrations\20200313171145_NaturoDb.Designer.cs" />
+    <Compile Remove="Migrations\20200313171208_NaturoDb.cs" />
+    <Compile Remove="Migrations\20200313171208_NaturoDb.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
       <PrivateAssets>all</PrivateAssets>
