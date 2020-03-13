@@ -45,5 +45,6 @@ namespace DAO
         public DbSet<JounninDTO> Jounnins { get; set; }
         public DbSet<KageDTO> Kages { get; set; }
 
+
     }
 }
