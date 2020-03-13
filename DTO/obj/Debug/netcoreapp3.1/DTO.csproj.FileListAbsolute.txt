@@ -45,13 +45,6 @@ C:\Users\900180\Source\Repos\ProjetoNaruto5\DTO\obj\Debug\netcoreapp3.1\DTO.Asse
 C:\Users\900180\Source\Repos\ProjetoNaruto5\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
 C:\Users\900180\Source\Repos\ProjetoNaruto5\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 C:\Users\900180\Source\Repos\ProjetoNaruto5\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
-C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
-C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.dll
-C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
-C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
-C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
-C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.dll
-C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
 C:\Users\900180\Source\Repos\ProjetoNaruto6\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
 C:\Users\900180\Source\Repos\ProjetoNaruto6\DTO\bin\Debug\netcoreapp3.1\DTO.dll
 C:\Users\900180\Source\Repos\ProjetoNaruto6\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
@@ -68,3 +61,11 @@ C:\Users\900206\Source\Repos\ProjetoNaruto10\DTO\obj\Debug\netcoreapp3.1\DTO.Ass
 C:\Users\900206\Source\Repos\ProjetoNaruto10\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
 C:\Users\900206\Source\Repos\ProjetoNaruto10\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 C:\Users\900206\Source\Repos\ProjetoNaruto10\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.pdb

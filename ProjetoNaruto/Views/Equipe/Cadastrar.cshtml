@@ -18,10 +18,14 @@
             </div>
 
             <div class="form-group">
-                <label class="control-label col-md-2">Jounnin da Equipe</label>
+                <label class="control-label col-md-2">Jounnin Da Equipe</label>
                 <div class="col-md-10">
-                    <input class="form-control" type="text" name="Jounnin" id="Jounnin" required />
-                    <span class="text-danger" id="erroJounnin" name="erroJounnin"></span>
+                    <select class="form-control" name="JounninID" id="JounninID">
+                        @foreach (var item in ViewBag.Jounnins)
+                        {
+                            <option value="@item.ID">@item.Nome</option>
+                        }
+                    </select>
                 </div>
             </div>
 

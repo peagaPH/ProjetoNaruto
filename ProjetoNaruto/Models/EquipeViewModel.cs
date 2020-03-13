@@ -9,9 +9,9 @@ namespace ProjetoNaruto.Models
     public class EquipeViewModel
     {
         public string Nome { get; set; }
-        public string Gennin1 { get; set; }
-        public string Gennin2 { get; set; }
-        public string Gennin3 { get; set; }
-        public string Jounnin { get; set; }
+        public int GenninID1 { get; set; }
+        public int GenninID2 { get; set; }
+        public int GenninID3 { get; set; }
+        public int JounninID { get; set; }
     }
 }

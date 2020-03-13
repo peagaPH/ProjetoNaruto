@@ -13,5 +13,6 @@ namespace ProjetoNaruto.Models
         public Vilas Vilas { get; set; }
         public string Senha { get; set; }
         public string ConfirmarSenha { get; set; }
+
     }
 }
