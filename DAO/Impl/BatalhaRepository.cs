@@ -1,5 +1,6 @@
 ﻿using DAO.Interfaces;
 using DTO;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -14,9 +15,10 @@ namespace DAO.Impl
         {
             this._context = ctx;
         }
-        public  Task<List<BatalhaDTO>> GetBatalhas()
+
+        public async Task<List<BatalhaDTO>> GetBatalhas()
         {
-            throw new NotImplementedException();
+            return await _context.Batalhas.ToListAsync();
         }
 
         public async Task Insert(BatalhaDTO batalha)
