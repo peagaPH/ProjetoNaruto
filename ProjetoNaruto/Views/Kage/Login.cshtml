@@ -12,16 +12,18 @@
 
             <div class="form-group">
                 <div class="text-center">
-                    <input type="text" name="Nome" id="Nome" placeholder="Usuario">
+                    <input type="text" name="Nome" id="Nome" placeholder="Usuario"><br />
                     <span class="text-danger" id="erroUsuario" name="erroUsuario"></span>
                 </div>
             </div>
+
             <div class="form-group">
                 <div class="text-center">
-                    <input type="password" name="Senha" id="Senha" placeholder="Senha">
+                    <input type="password" name="Senha" id="Senha" placeholder="Senha"><br />
                     <span class="text-danger" id="erroSenha" name="erroSenha"></span>
                 </div>
             </div>
+
             <div class="form-group">
                 <div class="text-center">
                     <button class="newbutton red" name="BotaoEnviar" id="BotaoEnviar">
@@ -29,12 +31,12 @@
                     </button>
                 </div>
             </div>
+
             <div class="form-group">
                 <div class="text-center">
                     <span class="txt1">
                         Crie Sua Conta
                     </span>
-
                     <a asp-area="" asp-controller="Kage" asp-action="Cadastrar">Aqui</a>
                 </div>
             </div>
@@ -49,11 +51,11 @@
         $(document).ready(function () {
             $("#BotaoEnviar").click(function (e) {
 
-                var usuario = $("#Usuario").val();
+                var usuario = $("#Nome").val();
                 var senha = $("#Senha").val();
 
                 var sucesso = true;
-
+                
                 if (usuario == "") {
                     $("#erroUsuario").html("Usuario deve ser informado!");
                     sucesso = false;

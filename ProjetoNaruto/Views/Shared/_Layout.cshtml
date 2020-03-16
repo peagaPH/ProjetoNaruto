@@ -16,18 +16,20 @@
                 <div class="container">
                     <img src="/Edit/Konoha.jpg" class="konohaEsquerda" />
                     <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Exame Chunin</a>
+
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                         <img src="/Edit/Konoha.jpg" />
                         <ul class="navbar-nav flex-grow-1">
                             <li class="nav-item">
-                                <a class="nav-link text-dark genin" asp-area="" asp-controller="Kage" asp-action="Cadastrar">Kage</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Kage" asp-action="Cadastrar">Kage</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark genin" asp-area="" asp-controller="Gennin" asp-action="Cadastrar">Gennins</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Gennin" asp-action="Cadastrar">Gennins</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Jounnin" asp-action="Cadastrar">Jounnin</a>
@@ -40,20 +42,24 @@
                             </li>
                         </ul>
                     </div>
+
                 </div>
             </nav>
         </header>
+
         <div class="container">
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
         </div>
-        <footer class="border-top footer text-muted">
+
+        <footer class="border-top footer text-dark">
             <div class="container">
                 &copy; 2020 - Exame Chunin  <a asp-area="" asp-controller="Gennin" asp-action="Cadastrar">Registre-se</a>
             </div>
             <audio src="~/kanashimi-wo-yasashisa-ni-original-english.mp3" type="audio/mp3" autoplay="autoplay" preload="auto" loop></audio>
         </footer>
+
         <script src="~/lib/jquery/dist/jquery.min.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
