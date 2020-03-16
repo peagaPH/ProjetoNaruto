@@ -2,61 +2,45 @@
 @{
     ViewData["Title"] = "Login";
 }
+<font face="njnaruto">
+<h1>Logue em Sua Conta</h1>
+</font>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Login V19</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <div class="limiter">
-        <div class="container-login100">
-            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-                <form method="post" class="text-center">
-                    <span class="form-group">
-                        Logue em sua conta
-                    </span>
-                    <div class="form-group" data-validate="Usuario Requerido">
-                        <input class="input100" type="text" name="Nome" id="Nome" placeholder="Usuario">
-                        <span class="text-danger" id="erroUsuario" name="erroUsuario"></span>
-                    </div>
+<div class="form-horizontal" >
+    <form method="post">
+        <font face="njnaruto">
 
-                    <div class="form-group" data-validate="Senha Requerida">
-                        <input class="input100" type="password" name="Senha" id="Senha" placeholder="Password">
-                        <span class="text-danger" id="erroSenha" name="erroSenha"></span>
-                    </div>
-
-                    <div class="form-group">
-                        <button class="newbutton red" name="BotaoEnviar" id="BotaoEnviar">
-                            Efetuar Login
-                        </button>
-                    </div>
-
-                    <div class="text-center p-t-45 p-b-4">
-                        <span class="txt1">
-                            Esqueceu ?
-                        </span>
-
-                        <a href="#" class="txt2 hov1">
-                            Usuario / Senha
-                        </a>
-                    </div>
-
-                    <div class="text-center">
-                        <span class="txt1">
-                            Crie Sua Conta
-                        </span>
-
-                        <a asp-area="" asp-controller="Kage" asp-action="Cadastrar">Aqui</a>
-                    </div>
-                </form>
+            <div class="form-group">
+                <div class="text-center">
+                    <input type="text" name="Nome" id="Nome" placeholder="Usuario">
+                    <span class="text-danger" id="erroUsuario" name="erroUsuario"></span>
+                </div>
             </div>
-        </div>
-    </div>
-</body>
-</html>
+            <div class="form-group">
+                <div class="text-center">
+                    <input type="password" name="Senha" id="Senha" placeholder="Senha">
+                    <span class="text-danger" id="erroSenha" name="erroSenha"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="text-center">
+                    <button class="newbutton red" name="BotaoEnviar" id="BotaoEnviar">
+                        Efetuar Login
+                    </button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="text-center">
+                    <span class="txt1">
+                        Crie Sua Conta
+                    </span>
+
+                    <a asp-area="" asp-controller="Kage" asp-action="Cadastrar">Aqui</a>
+                </div>
+            </div>
+        </font>
+    </form>
+</div>
 
 @section scripts {
 
