@@ -17,12 +17,12 @@ namespace ProjetoNaruto.Controllers
         private readonly IBatalhaService _bvc;
         private readonly IEquipeService _svc;
 
-
         public BatalhaController(IBatalhaService bvc, IEquipeService svc)
         {
             _bvc = bvc;
             _svc = svc;
         }
+
         public async Task<IActionResult> Cadastrar()
         {
             List<EquipeDTO> equipe = await _svc.GetEquipes();
@@ -55,7 +55,7 @@ namespace ProjetoNaruto.Controllers
             try
             {
                 await _bvc.Insert(batalha);
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Cadastrar", "Home");
             }
             catch (ExameException ex)
             {

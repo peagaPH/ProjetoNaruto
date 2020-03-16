@@ -15,7 +15,5 @@ namespace DTO
         public int EquipeID6 { get; set; }
         public int EquipeID7 { get; set; }
         public int EquipeID8 { get; set; }
-
-
     }
 }
