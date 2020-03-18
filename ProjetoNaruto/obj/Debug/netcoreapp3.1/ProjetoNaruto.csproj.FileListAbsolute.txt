@@ -1306,7 +1306,6 @@ C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\ProjetoNaruto\obj\Debug\netco
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.TagHelpers.input.cache
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.TagHelpers.output.cache
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\ProjetoNaruto\obj\Debug\netcoreapp3.1\ProjetoNaruto.RazorCoreGenerate.cache
-C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Batalha\Cadastrar.cshtml.g.cs
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Equipe\Cadastrar.cshtml.g.cs
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Gennin\Cadastrar.cshtml.g.cs
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\ProjetoNaruto\obj\Debug\netcoreapp3.1\Razor\Views\Home\Historia.cshtml.g.cs

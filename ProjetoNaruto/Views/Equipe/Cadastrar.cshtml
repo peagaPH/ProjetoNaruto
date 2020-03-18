@@ -9,11 +9,15 @@
 <div class="form-horizontal">
     <form method="post">
         <font face="njnaruto">
-            
+
+            @{
+                string[] cla = Enum.GetNames(typeof(DTO.Enum.Cla));
+            }
+
             <div class="form-group">
                 <label class="control-label col-md-2">Nome da Equipe</label>
                 <div class="col-md-10">
-                    <input class="form-control" type="text" name="Nome" id="Nome" required />
+                    <input class="form-control" type="text" name="Nome" id="Nome" placeholder="5 a 50 caracteres" required />
                     <span class="text-danger" id="erroNome" name="erroNome"></span>
                 </div>
             </div>
@@ -22,9 +26,10 @@
                 <label class="control-label col-md-2">Jounnin Da Equipe</label>
                 <div class="col-md-10">
                     <select class="form-control" name="JounninID" id="JounninID">
+                        <option>Selecionar</option>
                         @foreach (var item in ViewBag.Jounnins)
                         {
-                            <option value="@item.ID">@item.Nome</option>
+                            <option value="@item.ID">@item.Cla @item.Nome</option>
                         }
                     </select>
                 </div>
@@ -34,9 +39,10 @@
                 <label class="control-label col-md-2">Primeiro Integrante</label>
                 <div class="col-md-10">
                     <select class="form-control" name="GenninID1" id="GenninID1">
+                        <option>Selecionar</option>
                         @foreach (var item in ViewBag.Gennins)
                         {
-                            <option value="@item.ID">@item.Nome</option>
+                            <option value="@item.ID">@item.Cla @item.Nome</option>
                         }
                     </select>
                 </div>
@@ -46,9 +52,10 @@
                 <label class="control-label col-md-2">Segundo Integrante</label>
                 <div class="col-md-10">
                     <select class="form-control" name="GenninID2" id="GenninID2">
+                        <option>Selecionar</option>
                         @foreach (var item in ViewBag.Gennins)
                         {
-                            <option value="@item.ID">@item.Nome</option>
+                            <option value="@item.ID">@item.Cla @item.Nome</option>
                         }
                     </select>
                 </div>
@@ -58,9 +65,10 @@
                 <label class="control-label col-md-2">Terceiro Integrante</label>
                 <div class="col-md-10">
                     <select class="form-control" name="GenninID3" id="GenninID3">
+                        <option>Selecionar</option>
                         @foreach (var item in ViewBag.Gennins)
                         {
-                            <option value="@item.ID">@item.Nome</option>
+                            <option value="@item.ID">@item.Cla @item.Nome</option>
                         }
                     </select>
                 </div>
@@ -88,11 +96,11 @@
 @section scripts {
 
     <script type="text/javascript">
-
         $(document).ready(function () {
             $("#BotaoEnviar").click(function (e) {
 
                 var nome = $("#Nome").val();
+                var selecionado = $("NaoSelecionado").val();
 
                 var sucesso = true;
 
@@ -101,7 +109,7 @@
                     sucesso = false;
                 }
                 else if (nome.length < 5 || nome.length > 50) {
-                    $("#erroNome").html("Nome deve conter entre 5 e 50 caracteres.");
+                    $("#erroNome").html("Nome deve conter entre 5 a 50 caracteres.");
                     sucesso = false;
                 }
                 else {
@@ -111,6 +119,10 @@
                 if (!sucesso) {
                     e.preventDefault();
                 }
+            });
+
+            $("#Cla").change(function () {
+                $("#ImagemCla").attr("src", "/Clas/" + $("#Cla option:selected").text() + ".png");
             });
         });
     </script>

@@ -28,7 +28,6 @@ namespace ProjetoNaruto
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IGenninService, GenninService>();
@@ -39,8 +38,6 @@ namespace ProjetoNaruto
             services.AddTransient<IEquipeRepository, EquipeRepository>();
             services.AddTransient<IKageService, KageService>();
             services.AddTransient<IKageRepository, KageRepository>();
-            services.AddTransient<IBatalhaService, BatalhaService>();
-            services.AddTransient<IBatalhaRepository, BatalhaRepository>();
 
             services.AddDbContextPool<ChuninContext>(c => c.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=NarutoDb;Integrated Security=True;Connect Timeout=30;"));
             
@@ -55,7 +52,6 @@ namespace ProjetoNaruto
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -65,7 +61,6 @@ namespace ProjetoNaruto
             else
             {
                 app.UseExceptionHandler(" / Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
