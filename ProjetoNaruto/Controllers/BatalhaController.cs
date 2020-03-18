@@ -6,12 +6,14 @@ using AutoMapper;
 using BLL.Interfaces;
 using Common;
 using DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoNaruto.Models;
 using ProjetoNaruto.Query;
 
 namespace ProjetoNaruto.Controllers
 {
+    [Authorize]
     public class BatalhaController : Controller
     {
         private readonly IBatalhaService _bvc;
@@ -34,9 +36,9 @@ namespace ProjetoNaruto.Controllers
 
             IMapper mapper = configuration.CreateMapper();
 
-            List<EquipeQueryViewModel> dadosEquipe = mapper.Map<List<EquipeQueryViewModel>>(equipe);
+            List<EquipeQueryViewModel> dadosBatalha = mapper.Map<List<EquipeQueryViewModel>>(equipe);
 
-            ViewBag.Batalhas = dadosEquipe;
+            ViewBag.Batalhas = dadosBatalha;
 
             return View();
         }

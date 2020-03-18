@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\ProjetoNaruto\\ProjetoNaruto.csproj": {}
+    "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\ProjetoNaruto\\ProjetoNaruto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\BLL\\BLL.csproj": {
+    "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,14 +27,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj"
+              "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\Common\\Common.csproj"
               },
-              "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj"
+              "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DAO\\DAO.csproj"
               },
-              "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj"
+              "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DTO\\DTO.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj": {
+    "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,21 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj": {
+    "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -141,8 +141,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj"
+              "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DTO\\DTO.csproj"
               }
             }
           }
@@ -192,21 +192,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj": {
+    "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -244,21 +244,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\ProjetoNaruto\\ProjetoNaruto.csproj": {
+    "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\ProjetoNaruto\\ProjetoNaruto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\ProjetoNaruto\\ProjetoNaruto.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\ProjetoNaruto\\ProjetoNaruto.csproj",
         "projectName": "ProjetoNaruto",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\ProjetoNaruto\\ProjetoNaruto.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\ProjetoNaruto\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\ProjetoNaruto\\ProjetoNaruto.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\ProjetoNaruto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -271,11 +271,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\BLL\\BLL.csproj"
+              "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj"
+              "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\peagaPH\\ProjetoNaruto\\DAO\\DAO.csproj"
               }
             }
           }
@@ -330,7 +330,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -70,3 +70,12 @@ C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.Asse
 C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
 C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 C:\Users\900203\Source\Repos\ProjetoNaruto7\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache

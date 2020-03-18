@@ -5,4 +5,4 @@ An error occurred while updating the entries. See the inner exception for detail
    at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
    at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
    at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
-   at BLL.Impl.EquipeService.Insert(EquipeDTO equipe) in C:\Users\900203\Source\Repos\ProjetoNaruto7\BLL\Impl\EquipeService.cs:line 53
+   at BLL.Impl.BatalhaService.Insert(BatalhaDTO batalha) in C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\BLL\Impl\BatalhaService.cs:line 43
