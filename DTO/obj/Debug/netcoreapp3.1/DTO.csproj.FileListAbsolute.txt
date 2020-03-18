@@ -79,3 +79,11 @@ C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\D
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.dll
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
 C:\Users\Pichau\Source\Repos\peagaPH\ProjetoNaruto\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\Users\israe\Source\Repos\ProjetoNaruto6\DTO\bin\Debug\netcoreapp3.1\DTO.deps.json
+C:\Users\israe\Source\Repos\ProjetoNaruto6\DTO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\israe\Source\Repos\ProjetoNaruto6\DTO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\israe\Source\Repos\ProjetoNaruto6\DTO\obj\Debug\netcoreapp3.1\DTO.csprojAssemblyReference.cache
+C:\Users\israe\Source\Repos\ProjetoNaruto6\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfoInputs.cache
+C:\Users\israe\Source\Repos\ProjetoNaruto6\DTO\obj\Debug\netcoreapp3.1\DTO.AssemblyInfo.cs
+C:\Users\israe\Source\Repos\ProjetoNaruto6\DTO\obj\Debug\netcoreapp3.1\DTO.dll
+C:\Users\israe\Source\Repos\ProjetoNaruto6\DTO\obj\Debug\netcoreapp3.1\DTO.pdb
