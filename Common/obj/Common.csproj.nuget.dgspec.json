@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj": {}
+    "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj": {
+    "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\Common\\obj\\",
+        "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\cejac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cejac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,12 +47,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

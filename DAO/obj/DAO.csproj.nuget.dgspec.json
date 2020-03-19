@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj": {}
+    "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DAO\\DAO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj": {
+    "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\DAO.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DAO\\obj\\",
+        "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DAO\\DAO.csproj",
+        "packagesPath": "C:\\Users\\cejac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cejac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj"
+              "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj"
               }
             }
           }
@@ -41,28 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -73,26 +51,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj": {
+    "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\900206\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\900206\\Source\\Repos\\ProjetoNaruto10\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\cejac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\900206\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cejac\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -125,12 +98,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
