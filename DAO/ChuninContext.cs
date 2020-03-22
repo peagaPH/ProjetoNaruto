@@ -44,9 +44,5 @@ namespace DAO
         public DbSet<EquipeDTO> Equipes { get; set; }
         public DbSet<JounninDTO> Jounnins { get; set; }
         public DbSet<KageDTO> Kages { get; set; }
-        public DbSet<BatalhaDTO> Batalhas { get; set; }
-
-
-
     }
 }

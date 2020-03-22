@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace BLL.Interfaces
 {
-    public interface IBatalhaService
+    public interface IFinalService
     {
-        Task Insert(BatalhaDTO batalha);
-        Task<List<BatalhaDTO>> GetBatalhas();
-
-
+        Task Insert(FinalDTO cliente);
+        Task<List<FinalDTO>> GetEquipes();
     }
 }

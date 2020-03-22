@@ -19,10 +19,6 @@ namespace DAO.Impl
         {
             KageDTO kage = await _context.Kages.FirstOrDefaultAsync(u => u.Nome == nome && u.Senha == senha);
 
-            if (kage == null)
-            {
-                throw new Exception("Nome e/ou senha inválidos");
-            }
             return kage;
         }
 

@@ -8,11 +8,11 @@
 
 <div class="form-horizontal">
     <form method="post">
-        <font face="njnaruto"
+        <font face="njnaruto">
         <div class="form-group">
             <label class="control-label col-md-2">Nome do Gennin</label>
             <div class="col-md-10">
-                <input class="form-control" type="text" name="Nome" id="Nome" required />
+                <input class="form-control" type="text" name="Nome" id="Nome" placeholder="5 a 50 caracteres" required />
                 <span class="text-danger" id="erroNome" name="erroNome"></span>
             </div>
         </div>
@@ -20,7 +20,7 @@
         <div class="form-group">
             <label class="control-label col-md-2">Idade do Gennin</label>
             <div class="col-md-10">
-                <input class="form-control" type="number" name="Idade" id="Idade" required />
+                <input class="form-control" type="number" name="Idade" id="Idade" placeholder="minimo 7 anos" required />
                 <span class="text-danger" id="erroIdade" name="erroIdade"></span>
             </div>
         </div>
@@ -34,6 +34,7 @@
             <label class="control-label col-md-2">Cla do Gennin</label>
             <div class="col-md-10">
                 <select class="form-control" name="Cla" id="Cla">
+                    <option>Selecionar</option>
                     @for (int i = 0; i < cla.Length; i++)
                     {
                         <option style="background-image:url(Clas/Aburama.png)" value="@i">@cla[i]</option>
@@ -47,6 +48,7 @@
             <label class="control-label col-md-2">Vila do Gennin</label>
             <div class="col-md-10">
                 <select class="form-control" name="Vila" id="Vila">
+                    <option>Selecionar</option>
                     @for (int i = 0; i < vila.Length; i++)
                     {
                         <option value="@i">@vila[i]</option>
@@ -90,7 +92,7 @@
                     sucesso = false;
                 }
                 else if (nome.length < 5 || nome.length > 40) {
-                    $("#erroNome").html("Nome deve conter entre 5 e 50 caracteres.");
+                    $("#erroNome").html("Nome deve conter entre 5 a 50 caracteres.");
                     sucesso = false;
                 }
                 else {

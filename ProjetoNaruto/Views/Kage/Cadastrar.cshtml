@@ -12,7 +12,7 @@
             <div class="form-group">
                 <label class="control-label col-md-2">Nome do Kage</label>
                 <div class="col-md-10">
-                    <input class="form-control" type="text" name="Nome" id="Nome" required />
+                    <input class="form-control" type="text" name="Nome" id="Nome" placeholder="5 a 50 caracteres" required />
                     <span class="text-danger" id="erroNome" name="erroNome"></span>
                 </div>
             </div>
@@ -20,7 +20,7 @@
             <div class="form-group">
                 <label class="control-label col-md-2">Senha do Kage</label>
                 <div class="col-md-10">
-                    <input class="form-control" type="password" name="Senha" id="Senha" required />
+                    <input class="form-control" type="password" name="Senha" id="Senha" placeholder="6 a 16 caracteres" required />
                     <span class="text-danger" id="erroSenha" name="erroSenha"></span>
                 </div>
             </div>
@@ -42,6 +42,7 @@
                 <label class="control-label col-md-2">Cla do Kage</label>
                 <div class="col-md-10">
                     <select class="form-control" name="Cla" id="Cla">
+                        <option>Selecionar</option>
                         @for (int i = 0; i < cla.Length; i++)
                         {
                             <option style="background-image:url(Clas/Aburama.png)" value="@i">@cla[i]</option>
@@ -55,6 +56,7 @@
                 <label class="control-label col-md-2">Vila do Kage</label>
                 <div class="col-md-10">
                     <select class="form-control" name="Vilas" id="Vilas">
+                        <option>Selecionar</option>
                         @for (int i = 0; i < vila.Length; i++)
                         {
                             <option value="@i">@vila[i]</option>
@@ -103,7 +105,7 @@
                     sucesso = false;
                 }
                 else if (nome.length < 5 || nome.length > 40) {
-                    $("#erroNome").html("Nome deve conter entre 5 e 50 caracteres.");
+                    $("#erroNome").html("Nome deve conter entre 5 a 50 caracteres.");
                     sucesso = false;
                 }
                 else {
@@ -111,7 +113,7 @@
                 }
 
                 if (senha.length < 6 || senha.length > 16) {
-                    $("#erroSenha").html("Senha deve conter entre 6 e 16 caracteres");
+                    $("#erroSenha").html("Senha deve conter entre 6 a 16 caracteres");
                     sucesso = false;
                 }
 
