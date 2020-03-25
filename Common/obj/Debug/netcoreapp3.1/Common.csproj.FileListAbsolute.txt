@@ -95,3 +95,11 @@ C:\Users\israe\Source\Repos\ProjetoNaruto7\Common\obj\Debug\netcoreapp3.1\Common
 C:\Users\israe\Source\Repos\ProjetoNaruto7\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
 C:\Users\israe\Source\Repos\ProjetoNaruto7\Common\obj\Debug\netcoreapp3.1\Common.dll
 C:\Users\israe\Source\Repos\ProjetoNaruto7\Common\obj\Debug\netcoreapp3.1\Common.pdb
+C:\Users\cejac\Source\Repos\ProjetoNaruto1\Common\bin\Debug\netcoreapp3.1\Common.deps.json
+C:\Users\cejac\Source\Repos\ProjetoNaruto1\Common\bin\Debug\netcoreapp3.1\Common.dll
+C:\Users\cejac\Source\Repos\ProjetoNaruto1\Common\bin\Debug\netcoreapp3.1\Common.pdb
+C:\Users\cejac\Source\Repos\ProjetoNaruto1\Common\obj\Debug\netcoreapp3.1\Common.csproj.CoreCompileInputs.cache
+C:\Users\cejac\Source\Repos\ProjetoNaruto1\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfoInputs.cache
+C:\Users\cejac\Source\Repos\ProjetoNaruto1\Common\obj\Debug\netcoreapp3.1\Common.AssemblyInfo.cs
+C:\Users\cejac\Source\Repos\ProjetoNaruto1\Common\obj\Debug\netcoreapp3.1\Common.dll
+C:\Users\cejac\Source\Repos\ProjetoNaruto1\Common\obj\Debug\netcoreapp3.1\Common.pdb

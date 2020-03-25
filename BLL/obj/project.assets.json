@@ -4977,19 +4977,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\israe\\.nuget\\packages\\": {}
+    "C:\\Users\\cejac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj",
+      "projectUniqueName": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\obj\\",
+      "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\cejac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cejac\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5002,14 +5002,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj"
+            "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\Common\\Common.csproj"
             },
-            "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj": {
-              "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj"
+            "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DAO\\DAO.csproj"
             },
-            "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj": {
-              "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj"
+            "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj"
             }
           }
         }
@@ -5037,7 +5037,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
