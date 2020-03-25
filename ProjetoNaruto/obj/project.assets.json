@@ -8306,11 +8306,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\ProjetoNaruto\\ProjetoNaruto.csproj",
+      "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\ProjetoNaruto\\ProjetoNaruto.csproj",
       "projectName": "ProjetoNaruto",
-      "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\ProjetoNaruto\\ProjetoNaruto.csproj",
+      "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\ProjetoNaruto\\ProjetoNaruto.csproj",
       "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\ProjetoNaruto\\obj\\",
+      "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\ProjetoNaruto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8326,11 +8326,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\BLL\\BLL.csproj"
+            "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DAO\\DAO.csproj": {
-              "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DAO\\DAO.csproj"
+            "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj": {
+              "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj"
             }
           }
         }

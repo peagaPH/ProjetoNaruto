@@ -25,7 +25,7 @@ namespace ProjetoNaruto.Controllers
         public EquipeController(IGenninService gvc, IJounninService jvc, IEquipeService svc)
         {
             _gvc = gvc;
-            _jvc = jvc;
+            _jvc = jvc; 
             _svc = svc;
         }
 

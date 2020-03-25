@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\BLL\\BLL.csproj": {}
+    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\BLL\\BLL.csproj": {
+    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,14 +27,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\Common\\Common.csproj"
+              "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj"
               },
-              "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DAO\\DAO.csproj": {
-                "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DAO\\DAO.csproj"
+              "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj": {
+                "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj"
               },
-              "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DTO\\DTO.csproj"
+              "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\Common\\Common.csproj": {
+    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\Common\\obj\\",
+        "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,14 +118,14 @@
         }
       }
     },
-    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DAO\\DAO.csproj": {
+    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DAO\\DAO.csproj",
+        "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj",
         "projectName": "DAO",
-        "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DAO\\DAO.csproj",
+        "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\DAO.csproj",
         "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DAO\\obj\\",
+        "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -141,8 +141,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DTO\\DTO.csproj"
+              "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj"
               }
             }
           }
@@ -196,14 +196,14 @@
         }
       }
     },
-    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DTO\\DTO.csproj": {
+    "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\israe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto6\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\israe\\Source\\Repos\\ProjetoNaruto7\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\israe\\AppData\\Roaming\\NuGet\\NuGet.Config",
