@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\BLL",
+    "\\ProjetoNaruto"
   ],
+  "SelectedNode": "\\ProjetoNaruto\\ProjetoNaruto.csproj",
   "PreviewInSolutionExplorer": false
 }
