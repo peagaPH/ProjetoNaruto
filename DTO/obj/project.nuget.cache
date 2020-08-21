@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Bd5y3WXWkD9tKWehWm36AmTwwIwzHdK4wklFe6mI8BVxTJXK4ehAwnblSHPEKFFVqbN5c1Jx2LlH4bcrTqRzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tomas\\Desktop\\Projetos\\ProjetoNaruto Proway\\ProjetoNaruto\\DTO\\DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tomas\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.4\\microsoft.codeanalysis.analyzers.2.9.4.nupkg.sha512",
+    "C:\\Users\\tomas\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.2\\microsoft.entityframeworkcore.analyzers.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

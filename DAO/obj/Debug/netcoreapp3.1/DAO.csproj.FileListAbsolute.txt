@@ -158,3 +158,18 @@ C:\Users\cejac\Source\Repos\ProjetoNaruto1\DAO\obj\Debug\netcoreapp3.1\DAO.cspro
 C:\Users\cejac\Source\Repos\ProjetoNaruto1\DAO\obj\Debug\netcoreapp3.1\DAO.dll
 C:\Users\cejac\Source\Repos\ProjetoNaruto1\DAO\obj\Debug\netcoreapp3.1\DAO.pdb
 C:\Users\cejac\Source\Repos\ProjetoNaruto1\DAO\obj\Debug\netcoreapp3.1\DAO.genruntimeconfig.cache
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\bin\Debug\netcoreapp3.1\DAO.deps.json
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\bin\Debug\netcoreapp3.1\DAO.runtimeconfig.json
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\bin\Debug\netcoreapp3.1\DAO.runtimeconfig.dev.json
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\bin\Debug\netcoreapp3.1\DAO.dll
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\bin\Debug\netcoreapp3.1\DTO.dll
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\bin\Debug\netcoreapp3.1\DTO.pdb
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\obj\Debug\netcoreapp3.1\DAO.csprojAssemblyReference.cache
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfoInputs.cache
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\obj\Debug\netcoreapp3.1\DAO.AssemblyInfo.cs
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.CopyComplete
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\obj\Debug\netcoreapp3.1\DAO.genruntimeconfig.cache
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\bin\Debug\netcoreapp3.1\DAO.pdb
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\obj\Debug\netcoreapp3.1\DAO.csproj.CoreCompileInputs.cache
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\obj\Debug\netcoreapp3.1\DAO.dll
+C:\Users\tomas\Desktop\Projetos\ProjetoNaruto Proway\ProjetoNaruto\DAO\obj\Debug\netcoreapp3.1\DAO.pdb

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj": {}
+    "C:\\Users\\tomas\\Desktop\\Projetos\\ProjetoNaruto Proway\\ProjetoNaruto\\DTO\\DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj": {
+    "C:\\Users\\tomas\\Desktop\\Projetos\\ProjetoNaruto Proway\\ProjetoNaruto\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\tomas\\Desktop\\Projetos\\ProjetoNaruto Proway\\ProjetoNaruto\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\DTO.csproj",
-        "packagesPath": "C:\\Users\\cejac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cejac\\Source\\Repos\\ProjetoNaruto1\\DTO\\obj\\",
+        "projectPath": "C:\\Users\\tomas\\Desktop\\Projetos\\ProjetoNaruto Proway\\ProjetoNaruto\\DTO\\DTO.csproj",
+        "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tomas\\Desktop\\Projetos\\ProjetoNaruto Proway\\ProjetoNaruto\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cejac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,18 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
